@@ -1,0 +1,58 @@
+﻿l_english:
+  # Tech Group
+  arctic_tech:0 "Arctic"
+
+  # Units
+  # Tech 1 INF
+  arctic_clubmen:0 "Clubman"
+  arctic_clubmenDESCR:0 "The Arctic Clubman is the origin of all warriors - take something hard, hit your opponent."
+  arctic_archer:0 "Arctic Archer"
+  arctic_archerDESCR:0 "The hunter-gatherer peoples early learned to value a man with a good aim with his bow. In peace time, it could be the difference between starvation or survival - in war, defeat or victory."
+  
+  # Tech 6 CAV
+  arctic_horseman:0 "Arctic Horseman"
+  arctic_horsemanDESCR:0 "The arrival of horses following the European involvement also changed Arctic warfare. Many tribes adopted horseriding as a new step in warfare. However horses themselves were not that popular in cold climate."
+
+  # Tech 5 INF
+  chukot_archer:0 "Chukot Archer"
+  chukot_archerDESCR:0 "In the frozen lands of Chukotka, new tactics built around ambush began to develop. These units did not have the staying power of the mountain infantry but they did hurt the enemies' morale with their ambush tactics."
+  arctic_tribemen:0 "Arctic Tundra Warrior"
+  arctic_tribemenDESCR:0 "With the gathering of Arctic people into tribes, often protecting specific areas, there often evolved a state of endemic warfare. The warpath was a way of proving your worth, and often as a rite of passage for the young men."
+  arctic_harpoon:0 "Arctic Harpoon Thrower"
+  arctic_harpoonDESCR:0 "Although not as effective in shock combat, these units performed deadly defensive barrages of missiles that gave them extra hitting power."
+  
+  # Tech 10 INF & CAV
+  arctic_mountain_warrior:0 "Arctic Mountain Warrior"
+  arctic_mountain_warriorDESCR:0 "Some of the toughest warriors of the Arctics were the mountain people. Often pushed into the mountains by stronger enemies, they had to be tough to survive."
+  arctic_reindeer_riders:0 "Reindeer Cavalry"
+  arctic_reindeer_ridersDESCR:0 "Riders on reindeer, equipped with bows who excel at raiding and harassment tactics. These units were really popular in the Arctics before the reindeer population decreased."
+
+  # Tech 14 INF & CAV
+  kamchadal_arquebusier:0 "Kamchadal Arquebusier"
+  kamchadal_arquebusierDESCR:0 "Kamchadal warriors had an emphasis on fire tactics even before the introduction of gunpowder. Embracing the benefits of these weapons, the Kamchadal Arquebusier put strong emphasis on offensive fire and cohesion in combat."
+  alaskan_arquebusier:0 "Alaskan Arquebusier"
+  alaskan_arquebusierDESCR:0 "The Alaskan Arquebusier was a descendant of the Mountain Warrior. These units still had an offensive bent with more shock and cohesion but their tactics were not as devastating to enemy morale as the Kamchadal Arquebusier."
+  arctic_hussar:0 "Arctic Hussar"
+  arctic_hussarDESCR:0 "Light cavalry specializing in raiding and hit-and-run tactics. Arctic people started using horses but these units still were not common."
+
+  # Tech 19 INF & CAV
+  tundra_rifle_scout:0 "Tundra Scout"
+  tundra_rifle_scoutDESCR:0 "The Tundra Scout is a unit that specializes in harassment of the enemy in the opened tundra plains. These warriors are excellent marksmen and their prowess with the rifle can cause some serious damage to the enemy."
+  arctic_swarm_cavalry:0 "Arctic Swarm Cavalry"
+  arctic_swarm_cavalryDESCR:0 "Swarm cavalry were loose order cavalry armed with bows or carbines and would use harassing fire tactics to disorder the enemy before charging. The loose order the cavalry made them less vulnerable to fire from the enemy, but if the opposition could withstand their harassing attacks they would quickly fall under a charge."
+
+  # Tech 23 CAV
+  arctic_dragoon:0 "Arctic Charge Cavalry"
+  arctic_dragoonDESCR:0 "The Arctic Charge Cavalry was rifle and spear armed cavalry unit. The brave warriors would charge towards the enemy firing carbines and pistols before closing for hand to hand combat."
+
+  # Tech 26 INF
+  lamut_guerilla:0 "Arctic Guerrilla"
+  lamut_guerillaDESCR:0 "The Arctic Guerrilla were expert raiders, often applying a hit-and-run tactics, especially when they used reindeer to shock the enemy."
+
+  # Tech 30 INF
+  arctic_western_warfare:0 "Arctic Westernized Infantry"
+  arctic_western_warfareDESCR:0 "These troops attack with maximum elan and without heed of their own casualties. These units can be fearsome on the offensive, but may be punished by a more defensive tactic."
+
+  # Naval Doctrine
+  war_kayaks:0 "Battle Kayaks"
+  war_kayaks_desc:0 "Our people were born by the sea, and the sea is an inseparable part of our life. Most of our men know how to behave in the sea, so relying on marines is our way. Our fleet is supported by the Battle Kayaks, and thousands of professionals are ready to hop on them and go to the battle!"

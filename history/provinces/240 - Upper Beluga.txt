@@ -1,0 +1,12 @@
+owner = TYK
+controller = TYK
+add_core = TYK
+culture = talkeetna
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = copper
+base_manpower = 1
+capital = "Upper Beluga"
+discovered_by = north_american

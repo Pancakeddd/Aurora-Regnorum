@@ -1,0 +1,176 @@
+#########################################
+# Events for the TSB
+#
+# scripted by SeagullSox
+# Localization written by SeagullSox
+#########################################
+
+namespace = flavor_vlz
+normal_or_historical_nations = yes
+
+# The Surrender of Sterling
+country_event = {
+	id = flavor_vlz.1
+	title = "flavor_vlz.1.t"
+	desc = "flavor_vlz.1.d"
+	picture = SIEGE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = VLZ
+		is_subject = no
+		exists = KTZ
+		NOT = { alliance_with = KTZ }
+		NOT = { war_with = KTZ }
+		NOT = { is_year = 1450 }
+		NOT = { truce_with = KTZ }
+		157 = {
+			OR = {
+				owned_by = VLZ
+				owner = {
+					is_subject_of = VLZ
+				}
+			}
+		}
+		KTZ = {
+			is_subject = no
+		}
+		is_year = 1445
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "flavor_vlz.1.a"
+		ai_chance = {
+			factor = 30
+		}
+		tooltip = {
+			157 = {
+				cede_province = KTZ
+			}
+			add_truce_with = KTZ
+		}
+		KTZ = { country_event = { id = flavor_vlz.3 } }
+		add_prestige = -10
+		add_stability = -1
+		set_country_flag = vlz_gave_up_soldotna
+	}
+	option = {
+		name = "flavor_vlz.1.b"
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 0
+				has_any_disaster = yes
+			}
+		}
+		custom_tooltip = flavor_vlz.1.a.tt
+		KTZ = { country_event = { id = flavor_vlz.2 } }
+	}
+}
+
+# The Surrender of Sterling
+country_event = {
+	id = flavor_vlz.2
+	title = "flavor_vlz.2.t"
+	desc = "flavor_vlz.2.d"
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+
+	major = yes
+	
+	option = {
+		name = "flavor_vlz.2.a" #'teach them how to war' /Reversed Henry V
+		ai_chance = {
+			factor = 70 #Shouldn't take this from them really.
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 0
+				has_any_disaster = yes
+			}
+		}
+		KTZ = {
+			declare_war_with_cb = {
+				who = VLZ
+				casus_belli = ktz_vlz_war
+			}
+		}
+		157 = {
+			change_controller = KTZ
+		}
+	}
+	option = {
+		name = "flavor_vlz.2.b" #Unpopular but preserves the peace?
+		ai_chance = {
+			factor = 30
+		}
+		add_prestige = -10
+		FROM = {
+			add_truce_with = ROOT
+		}
+		add_truce_with = FROM
+		if = {
+			limit = { exists = DLV }
+			DLV = {
+				add_opinion = {
+					who = ROOT
+					modifier = ktz_gave_up
+				}
+			}
+			limit = { exists = NIN }
+			NIN = {
+				add_opinion = {
+					who = ROOT
+					modifier = ktz_gave_up
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -10
+			}
+		}
+	}
+}
+
+# The Surrender of Sterling
+country_event = {
+	id = flavor_vlz.3
+	title = "flavor_vlz.3.t"
+	desc = "flavor_vlz.3.d"
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = "flavor_vlz.3.a" #
+		add_prestige = 10
+		hidden_effect = {
+			FROM = {
+				add_truce_with = ROOT
+			}
+		}
+		add_truce_with = FROM
+		157 = {
+			cede_province = KTZ
+		}
+	}
+}

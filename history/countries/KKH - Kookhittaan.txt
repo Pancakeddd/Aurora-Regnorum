@@ -1,0 +1,17 @@
+government = native
+add_government_reform = tlingit_chiefdom_reform
+government_rank = 1
+primary_culture = sitkan
+religion = totemism
+technology_group = north_american
+capital = 401	# Cube Cove
+
+1444.11.11 = {
+	monarch = {
+		name = "Lxooda Aanyadi"
+		dynasty = "Ch'aak Naa"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

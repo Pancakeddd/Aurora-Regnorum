@@ -1,0 +1,17 @@
+owner = JKY
+controller = JKY
+add_core = JKY
+add_core = EKL
+culture = denaina
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 3
+base_manpower = 4
+trade_goods = grain
+capital = "Eagle River"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

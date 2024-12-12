@@ -1,0 +1,17 @@
+owner = VLZ
+controller = VLZ
+add_core = VLZ
+add_core = KTZ
+culture = denaina
+religion = totemism
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = fish
+base_manpower = 1
+capital = "Sterling"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

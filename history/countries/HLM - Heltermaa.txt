@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = tallinast
+capital = 115	# Sukli
+
+1444.11.11 = {
+	monarch = {
+		name = "Matti"
+		dynasty = "Jarvinen "
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+

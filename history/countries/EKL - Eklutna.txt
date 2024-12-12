@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kenai
+government_rank = 1
+primary_culture = denaina
+religion = catholic
+technology_group = north_american
+capital = 459	
+
+1444.11.11 = {
+	monarch = {
+		name = "Taika"
+		dynasty = "Chada Ka'a "
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

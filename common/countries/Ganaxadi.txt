@@ -1,0 +1,31 @@
+# Kiksadi
+
+graphical_culture = northamericagfx
+
+color = { 164 249 200 }
+revolutionary_colors = { 149 175 186 }
+
+preferred_religion = totemism
+
+historical_idea_groups = {
+	aristocracy_ideas
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+}
+
+historical_units = {
+}
+
+monarch_names = {
+}
+
+leader_names = {
+}
+
+ship_names = {
+}

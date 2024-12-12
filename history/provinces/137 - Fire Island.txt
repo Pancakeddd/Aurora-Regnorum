@@ -1,0 +1,16 @@
+owner = RGN
+controller = RGN
+add_core = RGN
+culture = balten
+religion = catholic
+hre = no
+base_tax = 3 
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Vaticanus"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

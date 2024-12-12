@@ -1,0 +1,16 @@
+bookmark =
+{
+	name = kibm_title
+	desc = kibm_desc
+	date = 1444.11.11
+	
+	center = 51
+	default = yes
+	
+	country = KDY
+	country = TSB
+	country = AFQ	
+	
+	easy_country = KDY
+	easy_country = TSB
+}

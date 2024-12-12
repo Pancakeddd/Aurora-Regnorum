@@ -1,0 +1,29 @@
+# Sugpiaq
+
+graphical_culture = inuitgfx
+
+color = { 0  92  135 }
+revolutionary_colors = { 0  92  135 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+
+historical_units = {
+}
+
+leader_names = {
+}
+
+ship_names = {
+}
+
+monarch_names = {
+}

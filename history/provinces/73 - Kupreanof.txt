@@ -1,0 +1,19 @@
+owner = KDY
+add_core = KDY
+add_core = AFQ
+controller = KDY
+culture = alutiiq
+religion = ae_shamanism
+
+hre = no
+
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+capital = "Kupreanof"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

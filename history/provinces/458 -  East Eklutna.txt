@@ -1,0 +1,15 @@
+owner = EKL
+controller = EKL
+add_core = EKL
+culture = denaina
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = iron
+base_manpower = 1
+capital = "Klutana"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

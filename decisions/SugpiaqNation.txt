@@ -1,0 +1,94 @@
+country_decisions = {
+
+	sugpiaq_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_sugpiaq_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = SPQ }
+			primary_culture = alutiiq
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 49
+				province_id = 51
+				province_id = 60
+				province_id = 87
+				province_id = 82
+				province_id = 161
+				province_id = 165
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			adm_tech = 7
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 49 #Afognak
+			owns_core_province = 51 #Kodiak
+			owns_core_province = 60 #Old Harbor
+			owns_core_province = 87 #Akhiok
+			owns_core_province = 82 #Karluk
+			owns_core_province = 161 #Seward
+			owns_core_province = 165 #Nanwalek
+		}
+		effect = {
+			change_tag = SPQ
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			swap_non_generic_missions = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			hidden_effect = {
+						unlock_government_reform = {
+							government_reform = sugpiaq_highkingdom_reform
+						}
+					}
+			change_government = monarchy
+			add_government_reform = sugpiaq_highkingdom_reform
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			set_country_flag = formed_sugpiaq_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+}

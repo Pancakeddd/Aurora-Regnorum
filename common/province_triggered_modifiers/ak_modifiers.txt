@@ -1,0 +1,20 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+#
+# Effects are fully scriptable here.
+
+
+###########################################
+# Just random test modifier
+###########################################
+
+kdy_kodiak_harbor = {
+	trigger = {
+		owner = { mission_completed = kdy_develop_kadyak }
+	}
+	local_development_cost = -0.05
+	trade_goods_size_modifier = 0.10
+}
+
+
+

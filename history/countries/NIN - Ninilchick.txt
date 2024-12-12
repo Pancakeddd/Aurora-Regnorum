@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kenai
+government_rank = 1
+primary_culture = denaina
+religion = totemism
+technology_group = north_american
+capital = 171	# Ninilchik
+
+1444.11.11 = {
+	monarch = {
+		name = "Yuk'ech"
+		dynasty = "Niqnalchint"
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}

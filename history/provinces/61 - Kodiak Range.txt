@@ -1,0 +1,5 @@
+#Mountains blocking movement in Kodiak
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = north_american

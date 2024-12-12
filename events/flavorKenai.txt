@@ -1,0 +1,33 @@
+#########################################
+# Events for the Kenai Tribes
+#
+# scripted by SeagullSox
+# Localization written by SeagullSox
+#########################################
+
+namespace = flavor_kenai
+normal_or_historical_nations = yes
+	
+country_event = {
+	id = flavor_kenai.1 #the pilgrimage to Susitna
+	title = flavor_kenai.1.t
+	desc = flavor_kenai.1.d
+	picture = northamericagfx_EXPLORERS_eventPicture
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	immediate = {
+		set_country_flag = susitna_trip
+	}
+	
+	option = {
+		name = flavor_kenai.1.a
+		add_country_modifier = {
+			name = "defending_susitna"
+			duration = 36500
+		}
+	}
+}
+

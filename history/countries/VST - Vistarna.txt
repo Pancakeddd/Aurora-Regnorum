@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = suomi
+capital = 224	# Mackenzi
+
+1444.11.11 = {
+	monarch = {
+		name = "Jooseppi"
+		dynasty = "Ozols"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+

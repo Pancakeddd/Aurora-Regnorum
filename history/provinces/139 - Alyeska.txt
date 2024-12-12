@@ -1,0 +1,16 @@
+owner = MTK
+controller = MTK
+add_core = MTK
+culture = suomi
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 2
+trade_goods = fish
+base_manpower = 2
+capital = "Alyeska"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

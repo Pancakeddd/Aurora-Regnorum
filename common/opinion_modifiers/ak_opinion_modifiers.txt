@@ -1,0 +1,11 @@
+tsb_defended_tribe = {
+	opinion = -15
+	years = 5
+	yearly_decay = 2
+}
+
+ktz_gave_up = {
+	opinion = -15
+	years = 5
+	yearly_decay = 2
+}

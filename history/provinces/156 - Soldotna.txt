@@ -1,0 +1,17 @@
+owner = VLZ
+controller = VLZ
+add_core = VLZ
+add_core = KTZ
+culture = karsavast
+religion = catholic
+hre = no
+base_tax = 3 
+base_production = 5
+trade_goods = grain
+base_manpower = 3
+capital = "Soldotna"
+is_city = yes
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

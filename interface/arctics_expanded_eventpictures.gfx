@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "AKITA_DOG_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_AE/AKITA_DOG_eventPicture.dds"
+		alwaystransparent = yes
+	}
+
+    spriteType = {
+		name = "JOMON_DOGU_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_AE/JOMON_DOGU_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}

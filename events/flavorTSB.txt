@@ -1,0 +1,529 @@
+#########################################
+# Events for the TSB
+#
+# scripted by SeagullSox
+# Localization written by SeagullSox
+#########################################
+
+namespace = flavor_tsb
+normal_or_historical_nations = yes
+	
+#Trading with Natives
+country_event = {
+	id = flavor_tsb.1
+	title = flavor_tsb.1.t
+	desc = flavor_tsb.1.d
+	picture = TRADEGOODS_eventPicture	
+	is_triggered_only = yes
+	
+	trigger {
+		tag = TSB
+		}
+	
+	option = {	
+		name = flavor_tsb.1.a
+		
+		add_treasury = 50
+		add_dip_power = 50
+	}
+}
+country_event = { #Stolen People
+	id = flavor_tsb.4
+	title = flavor_tsb.4.t
+	desc = flavor_tsb.4.d
+	picture = LOADING_SHIP_eventPicture
+	
+	trigger = {
+		tag = TSB
+		TSB = {
+			
+		has_country_flag = tsb_karluk_influence
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 72
+	}
+	option = {			# Those pesky Kadyaks
+		name = flavor_tsb.4.a
+		
+		KRQ = {
+		add_trust = {
+				who = TSB
+				value = 5
+				mutual = no
+				}
+			}
+		KDY = {
+		add_opinion = {
+				who = TSB
+				modifier = tsb_defended_tribe
+			}
+		}
+	}
+	option = {			# Cut trade 
+		name = flavor_tsb.4.b
+		
+		add_country_modifier = {
+			name = tsb_embargo_slavers
+			duration = 1095
+		}
+		
+		KRQ = {
+		add_trust = {
+				who = TSB
+				value = 10
+				mutual = no
+				}
+			}
+		add_estate_loyalty = {
+				estate = estate_burghers
+				loyalty = -5
+			}
+		KDY = {
+		add_opinion = {
+				who = TSB
+				modifier = tsb_defended_tribe
+			}
+		}
+	}
+	option = {		# Not our business
+		name = flavor_tsb.4.c
+		KRQ = {
+		add_trust = {
+				who = TSB
+				value = -5
+				mutual = no
+				}
+			}
+		add_estate_loyalty = {
+				estate = estate_burghers
+				loyalty = 5
+			}
+	}
+}
+country_event = { #Kadyak Overfishing
+	id = flavor_tsb.5
+	title = flavor_tsb.5.t
+	desc = flavor_tsb.5.d
+	picture = HUNTER_GATHERERS_eventPicture
+	
+	trigger = {
+		tag = TSB
+		TSB = {
+			
+		has_country_flag = tsb_karluk_influence
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 72
+	}
+	option = {			# Let us supply you with some of our fish
+		name = flavor_tsb.5.a
+		
+		KRQ = {
+		add_trust = {
+				who = TSB
+				value = 10
+				mutual = no
+				}
+			}
+		add_country_modifier = {
+			name = tsb_give_resources
+			duration = 1095
+		}
+		
+	}
+	option = {		# Not our business
+		name = flavor_tsb.5.b
+		KRQ = {
+		add_trust = {
+				who = TSB
+				value = -5
+				mutual = no
+				}
+			}
+	}
+}
+country_event = { #Orthodox Fascination AKHIOK 
+	id = flavor_tsb.6
+	title = flavor_tsb.6.t
+	desc = flavor_tsb.6.d
+	picture = northamericagfx_DIPLOMACY_eventPicture
+	
+	trigger = {
+		tag = TSB
+		AND = { 
+			TSB = {
+				has_country_flag = tsb_akhiok_influence
+					}
+			NOT = {
+				AXK = {
+					has_country_flag = axk_converted
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 72
+	}
+	option = {			# Prepare a missionary for travel, add chance to this
+		name = flavor_tsb.6.a
+		ai_chance = { factor = 100 }
+		
+		add_years_of_income = -0.5
+		random_list = {
+			40 = {
+									AXK = {
+										country_event = {
+											id = flavor_tsb.8 #were the missionaries successful? Have to fix the chance on this
+											days = 90
+											}
+										set_country_flag = axk_converted
+						
+									}
+						}
+			40 = {
+				AXK = {
+				add_trust = {
+					who = TSB
+					value = 10
+					mutual = no
+					}
+				}
+			}
+			20 = {
+				AXK = {
+				add_trust = {
+					who = TSB
+					value = -5
+					mutual = no
+					}
+				}
+			}
+		}
+		add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = 5
+			}
+	}
+	option = {		# Not our business
+		name = flavor_tsb.6.b
+		ai_chance = { factor = 0 }
+
+		add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = -5
+			}
+	}
+}
+country_event = { #Fever outbreak READY TO TEST
+	id = flavor_tsb.7
+	title = flavor_tsb.7.t
+	desc = flavor_tsb.7.d
+	picture = northamericagfx_PLAGUE_eventPicture
+	
+	trigger = {
+		tag = TSB
+		TSB = {
+			
+		has_country_flag = tsb_akhiok_influence
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+	option = {			# Send aid at once
+		name = flavor_tsb.7.a
+		ai_chance = { factor = 100 }
+		
+		add_years_of_income = -0.5
+		
+		AXK = {
+		add_trust = {
+				who = TSB
+				value = 10
+				mutual = no
+				}
+			}
+		add_prestige = 5
+	}
+	option = {			# No 
+		name = flavor_tsb.7.b
+		ai_chance = { factor = 0 }
+		
+		AXK = {
+		add_trust = {
+				who = TSB
+				value = -5
+				mutual = no
+				}
+			}
+	}
+}
+country_event = { #Missionary Successful with conversion, people on the brink of conversion 
+	id = flavor_tsb.8
+	title = flavor_tsb.8.t
+	desc = flavor_tsb.8.d
+	picture = east_slavic_RELIGIOUS_CONVERSION_eventPicture
+	is_triggered_only = yes
+
+	
+	option = {			# Let us embrace this faith
+		name = flavor_tsb.8.a
+		ai_chance = { factor = 100 }
+		
+		ROOT = {
+			change_religion = orthodox
+			capital_scope = { change_religion = orthodox
+				}
+			}
+		TSB = {
+			country_event = {
+								id = flavor_tsb.9 #Place Converted!
+								days = 7
+							}
+			}
+	}
+	option = {			# No we must remain in our old ways
+		name = flavor_tsb.8.b
+		ai_chance = { factor = 0 }
+		
+		add_legitimacy = 10
+	}
+}
+country_event = { # Place Converted
+	id = flavor_tsb.9
+	title = flavor_tsb.9.t
+	desc = flavor_tsb.9.d
+	picture = ORTHODOX_eventPicture	
+	is_triggered_only = yes
+	
+	option = {
+	name = flavor_tsb.9.a
+		add_prestige = 10
+		FROM = {
+		add_trust = {
+				who = TSB
+				value = 15
+				mutual = no
+				}
+			}
+	}
+}
+country_event = { #Orthodox Fascination Kalut R
+	id = flavor_tsb.10
+	title = flavor_tsb.10.t
+	desc = flavor_tsb.10.d
+	picture = northamericagfx_DIPLOMACY_eventPicture
+	
+	trigger = {
+		tag = TSB
+		AND = { 
+			TSB = {
+				has_country_flag = tsb_karluk_influence
+					}
+			NOT = {
+				AXK = {
+					has_country_flag = krq_converted
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 72
+	}
+	option = {			# Prepare a missionary for travel, add chance to this
+		name = flavor_tsb.10.a
+		ai_chance = { factor = 100 }
+		
+		add_years_of_income = -0.5
+		random_list = {
+			40 = {
+					 KRQ = {
+										country_event = {
+											id = flavor_tsb.8 #were the missionaries successful? Have to fix the chance on this
+											days = 90
+											}
+										set_country_flag = krq_converted
+						
+									}
+						}
+			40 = {
+				KRQ = {
+				add_trust = {
+					who = TSB
+					value = 10
+					mutual = no
+					}
+				}
+			}
+			20 = {
+				KRQ = {
+				add_trust = {
+					who = TSB
+					value = -5
+					mutual = no
+					}
+				}
+			}
+		}
+		add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = 5
+			}
+	}
+	option = {		# Not our business
+		name = flavor_tsb.10.b
+		ai_chance = { factor = 0 }
+
+		add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = -5
+			}
+	}
+}
+country_event = { #diplo blunder 
+	id = flavor_tsb.12
+	title = flavor_tsb.12.t
+	desc = flavor_tsb.12.d
+	picture = northamericagfx_ANGRY_MOB_eventPicture
+	
+	trigger = {
+		tag = TSB
+		TSB = {
+			
+		has_country_flag = tsb_akhiok_influence
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 86
+	}
+	option = {			# Dang
+		name = flavor_tsb.12.a
+		AXK = {
+		add_trust = {
+				who = TSB
+				value = -5
+				mutual = no
+				}
+			}
+	}
+	option = {
+		name = flavor_tsb.12.b		# Drama skills!
+		ai_chance = {
+			factor = 1
+		}
+		highlight = yes
+		trigger = {
+			dip = 5
+		}
+		AXK = {
+		add_trust = {
+				who = TSB
+				value = 5
+				mutual = no
+				}
+			}
+	}
+}
+country_event = { #diplo blunder 
+	id = flavor_tsb.13
+	title = flavor_tsb.13.t
+	desc = flavor_tsb.13.d
+	picture = northamericagfx_ANGRY_MOB_eventPicture
+	
+	trigger = {
+		tag = TSB
+		TSB = {
+			
+		has_country_flag = tsb_karluk_influence
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 86
+	}
+	option = {			# Dang
+		name = flavor_tsb.12.a
+		KRQ = {
+		add_trust = {
+				who = TSB
+				value = -5
+				mutual = no
+				}
+			}
+	}
+	option = {
+		name = flavor_tsb.12.b		# Drama skills!
+		ai_chance = {
+			factor = 1
+		}
+		highlight = yes
+		trigger = {
+			dip = 5
+		}
+		KRQ = {
+		add_trust = {
+				who = TSB
+				value = 5
+				mutual = no
+				}
+			}
+	}
+}
+country_event = { # Kalut Colonize
+	id = flavor_tsb.14
+	title = flavor_tsb.14.t
+	desc = flavor_tsb.14.d
+	picture = east_slavic_RELIGIOUS_CONVERSION_eventPicture
+	is_triggered_only = yes
+
+	
+	option = {			# Sicc
+		name = flavor_tsb.14.a
+		ai_chance = { factor = 100 }
+		
+		ROOT = {
+			create_colony_mission_reward = {
+					province = 81
+				}
+				create_colony_mission_reward = {
+					province = 83
+				}
+				create_colony_mission_reward = {
+					province = 84
+				}
+			}
+	}
+}
+country_event = { # Akhiok Colonize
+	id = flavor_tsb.15
+	title = flavor_tsb.15.t
+	desc = flavor_tsb.15.d
+	picture = east_slavic_RELIGIOUS_CONVERSION_eventPicture
+	is_triggered_only = yes
+
+	
+	option = {			# Sicc
+		name = flavor_tsb.15.a
+		ai_chance = { factor = 100 }
+		
+		ROOT = {
+			create_colony_mission_reward = {
+					province = 89
+				}
+				create_colony_mission_reward = {
+					province = 90
+				}
+				create_colony_mission_reward = {
+					province = 58
+				}
+			}
+	}
+}

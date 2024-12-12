@@ -1,0 +1,15 @@
+owner = QTK
+controller = QTK
+add_core = QTK
+culture = alutiiq
+religion = ae_shamanism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Valley Town"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

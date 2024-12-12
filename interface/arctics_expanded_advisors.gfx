@@ -1,0 +1,26 @@
+spriteTypes = {	
+    spriteType = {
+        name = "GFX_advisor_arctics_expanded_shaman"
+        texturefile = "gfx//interface//advisors//arctics_expanded_shaman.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+   }
+   spriteType = {
+       name = "GFX_advisor_arctics_expanded_shaman_dip"
+       texturefile = "gfx//interface//advisors//arctics_expanded_shaman.dds"
+       noOfFrames = 1
+       norefcount = yes
+       effectFile = "gfx/FX/buttonstate.lua"
+       loadType = "INGAME"
+  }
+  spriteType = {
+      name = "GFX_advisor_arctics_expanded_shaman_mil"
+      texturefile = "gfx//interface//advisors//arctics_expanded_shaman.dds"
+      noOfFrames = 1
+      norefcount = yes
+      effectFile = "gfx/FX/buttonstate.lua"
+      loadType = "INGAME"
+ }
+}

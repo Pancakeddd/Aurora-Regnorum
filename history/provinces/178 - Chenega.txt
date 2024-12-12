@@ -1,0 +1,23 @@
+owner = HLM
+controller = HLM
+add_core = HLM
+culture = alutiiq
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Chenega"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim
+
+1444.1.1 = {
+	add_permanent_province_modifier = {
+		name = "prince_william_fisheries"
+		duration = -1
+	}
+}

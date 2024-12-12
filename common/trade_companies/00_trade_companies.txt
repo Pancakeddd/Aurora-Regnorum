@@ -1,0 +1,97 @@
+trade_company_koniag = {
+	color = { 50 0 200 }
+	
+	provinces = {
+		1 2 3 44 46 47 48 49 50 51 53 54 56 58 59 60 52 55 56 57 58 59 60 61 62 63 64 65 66 67 
+		68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 114 91 90 
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_KONIAG_Root_Culture_GetName"
+	}
+}
+
+trade_company_glenallen = {
+	color = { 0 175 0 }
+	
+	provinces = {
+		273 274 275 277 278 279 280 281 282 457
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_GLENALLEN_Root_Culture_GetName"
+	}
+}
+
+trade_company_prince_william = {
+	color = { 200 0 0 }
+	
+	provinces = {
+		115 142 152 153 161 178 179 197 198 199 200 201 202 203 204 205 210 213 214 215 216 217 218 219 2606 741 
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_PRINCE_WILLIAM_Root_Culture_GetName"
+	}
+}
+
+trade_company_kenai = {
+	color = { 135 104 85 }
+	
+	provinces = {
+		147 148 149 150 151 154 155 156 157 158 159 160 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 
+		180 181 182 183 184 185 186 187 188 189 190 191 192 209 220 221 222 223 238 239 241 462 461
+	}
+	
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_KENAI_Root_Culture_GetName"
+	}
+}
+
+trade_company_susitna = {
+	color = { 230 0 0 }
+	
+	provinces = {
+		233 234 235 236 237 240 242 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 264 265 266 267 268 270 271 272 285 
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_SUSITNA_Root_Culture_GetName"
+	}
+}
+
+trade_company_anchorage = {
+	color = { 135 150 0 }
+	
+	provinces = {
+		133 134 135 136 137 138 139 140 141 143 144 145 146 224 225 226 227 228 229 230 231 232 
+		458 459 460 463 464
+	}
+	
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_ANCHORAGE_Root_Culture_GetName"
+	}
+}
+
+trade_company_sitka = {
+	color = { 20 150 56 }
+	
+	provinces = {
+		409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 
+	}
+	
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_SITKA_Root_Culture_GetName"
+	}
+}

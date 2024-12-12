@@ -1,0 +1,12 @@
+culture = revian
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Tax'noowu"
+native_size = 30
+native_ferocity = 5
+native_hostileness = 4
+discovered_by = north_american

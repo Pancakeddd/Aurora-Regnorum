@@ -1,0 +1,16 @@
+owner = DLV
+controller = DLV
+add_core = DLV
+culture = denaina
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = furs
+base_manpower = 1
+capital = "Little Creek"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

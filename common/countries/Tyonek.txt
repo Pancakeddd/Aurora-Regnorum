@@ -1,0 +1,31 @@
+# Tyonek
+
+graphical_culture = northamericagfx
+
+color = { 88 70 37 }
+revolutionary_colors = { 128 107 36 }
+
+preferred_religion = totemism
+
+historical_idea_groups = {
+	aristocracy_ideas
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+}
+
+historical_units = {
+}
+
+monarch_names = {
+}
+
+leader_names = {
+}
+
+ship_names = {
+}

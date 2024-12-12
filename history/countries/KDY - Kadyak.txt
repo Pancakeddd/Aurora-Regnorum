@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = oligarchy
+government_rank = 1
+mercantilism = 25
+technology_group = eastern
+historical_rival = AFQ
+religion = orthodox
+primary_culture = kadyak
+capital = 51	# Kodiak
+
+1444.11.11 = {
+	monarch = {
+		name = "Dmitry"
+		dynasty = "Kodukski"
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}
+

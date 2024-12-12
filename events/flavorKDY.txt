@@ -1,0 +1,57 @@
+#########################################
+# Events for Kadyak
+#
+# scripted by SeagullSox
+# Localization written by SeagullSox
+#########################################
+
+namespace = flavor_kdy
+normal_or_historical_nations = yes
+	
+country_event = {
+	id = flavor_kdy.1 #otter prices
+	title = flavor_kdy.1.t
+	desc = flavor_kdy.1.d
+	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = flavor_kdy.1.a
+		change_price = {
+			trade_goods = fur
+			key = OTTER_PRICES
+			value = -0.2
+			duration = 10950
+		}
+		add_years_of_income  = 0.25
+		add_prestige = 10
+	}
+}
+
+country_event = {
+	id = flavor_kdy.2 #Nanwalek
+	title = flavor_kdy.2.t
+	desc = flavor_kdy.2.d
+	picture = northamericagfx_REFORM_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_kdy.2.a #ok
+		KDY = {
+		create_march = NNW
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = flavor_kdy.2.b #no
+		ai_chance = {
+			factor = 20
+		}
+		add_prestige = 10
+	}
+}
+

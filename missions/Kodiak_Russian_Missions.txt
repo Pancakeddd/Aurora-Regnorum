@@ -1,0 +1,58 @@
+kdy_orthodox_1 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+		tag = KDY
+		tag = TSB
+		tag = KPR
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	kdy_churches_mission = {
+		icon = mission_land_of_churches
+		position = 1
+		required_missions = {  }
+		
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 4
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_patriarch_authority = 0.1
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+				}
+			capital_scope = {
+				add_base_tax = 3
+				}
+		}
+}
+kdy_authority_religion = {
+		icon = mission_autocephalous_archbishopric
+		position = 2
+		required_missions = { kdy_churches_mission  }
+		
+		trigger = {
+			stability = 2
+			patriarch_authority = 0.4
+		}
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+				}
+			add_country_modifier = {
+						name = "ortho_powerful_bishops"
+						duration = 7300
+						}
+		}
+}
+}

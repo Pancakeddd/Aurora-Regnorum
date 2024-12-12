@@ -1,0 +1,16 @@
+owner = NLC
+controller = NLC
+add_core = NLC
+culture = ahtna
+religion = totemism
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = fur
+base_manpower = 2
+capital = "Glenallen"
+center_of_trade = 1
+native_size = 5
+native_ferocity = 4
+native_hostileness = 3
+discovered_by = north_american

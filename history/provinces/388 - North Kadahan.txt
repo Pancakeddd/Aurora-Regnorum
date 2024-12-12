@@ -1,0 +1,15 @@
+owner = DSH
+controller = DSH
+add_core = DSH
+culture = angoonan
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Wesdy"
+native_size = 15
+native_ferocity = 7
+native_hostileness = 6
+discovered_by = north_american

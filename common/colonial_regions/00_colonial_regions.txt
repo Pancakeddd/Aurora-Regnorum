@@ -1,0 +1,50 @@
+# Alaska
+colonial_panhandle = {
+	color = { 225 225 225 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 8
+	native_ferocity = 1
+	native_hostileness = 4
+
+	trade_goods = {
+		fur = 10
+		fish = 3
+		naval_supplies = 2
+		gold = 2
+	}
+
+	culture = {
+		inuit = 10
+		aleutian = 8
+	}
+
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		453 454 455 456 448 449 450 451 452 444 445 446 447 424 425 426 428 427 429 430 432 433
+		404 405 406 407 400 401 402 403 408
+		394 395 396 397 398 390 391 392 393 381 382 383 384 385 380 386 387 388 389 
+		375 376 377 378 379 371 372 373 374 366 367 368 369 370 363 364 365
+		359 360 361 362 355 356 357 358 346 347 348 349 350 351 352 353 354 443
+		340 341 342 343 344 331 335 336 337 338 339 330 333 332 345 334
+	}
+
+	# Specific
+#	names = {
+#		trigger = {
+#			OR = {
+#				primary_culture = russian
+#				primary_culture = russian_new
+#			}
+#		}
+#		name = "COLONIAL_ALASKA_Alyeska"
+#	}
+	# Generic
+	names = {
+		name = "COLONIAL_PANHANDLE_panhandle"
+	}
+}

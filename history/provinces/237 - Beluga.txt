@@ -1,0 +1,16 @@
+owner = BLU
+controller = BLU
+add_core = BLU
+culture = talkeetna
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 2
+capital = "Beluga"
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

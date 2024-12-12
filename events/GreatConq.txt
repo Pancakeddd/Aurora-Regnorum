@@ -1,0 +1,62 @@
+namespace = powerful_conqueror
+
+country_event = {
+	id = powerful_conqueror.1 #missionary offer
+	title = powerful_conqueror.1.t
+	desc = powerful_conqueror.1.d
+	picture = EMPEROR_eventPicture
+	is_triggered_only = yes
+	
+	option = { 
+		name = powerful_conqueror.1.a			
+		ai_chance = { factor = 0 }
+		custom_tooltip = "Enabling this will cause two major nations to become much stronger and angrier."
+		hidden_effect = {
+		random_country = {
+			limit = {
+				OR = {
+					tag = AFQ
+					tag = KDY
+					tag = JKY
+					tag = VST
+				}
+				ai = yes
+			}
+			add_country_modifier = { 
+					name = powerful_conqueror_modifier
+					duration = -1 
+				}
+			set_country_flag = alaskan_conqueror
+			set_ai_personality = {
+				personality = ai_militarist
+				locked = yes
+				}
+			}
+		random_country = {
+			limit = {
+				OR = {
+					tag = KTZ
+					tag = VLZ
+					tag = KAG
+					tag = KRD
+				}
+				ai = yes
+			}
+			add_country_modifier = { 
+					name = powerful_conqueror_modifier
+					duration = -1 
+				}
+			set_country_flag = alaskan_conqueror
+			set_ai_personality = {
+				personality = ai_militarist
+				locked = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = powerful_conqueror.1.b			
+		ai_chance = { factor = 100 }
+	}
+}
+

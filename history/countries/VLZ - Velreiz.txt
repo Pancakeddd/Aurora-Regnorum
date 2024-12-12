@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 20
+technology_group = western
+historical_rival = KTZ
+religion = catholic
+primary_culture = karsavast
+capital = 151	# Nikiski
+
+1444.11.11 = {
+	monarch = {
+		name = "Meinekinus"
+		dynasty = "Kesgaila"
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}
+

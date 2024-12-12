@@ -1,0 +1,21 @@
+# Order here is the priority for taking them, if trigger is true.
+
+SPQ = {
+	always = yes
+}
+
+VLZ = {
+	NOT = { 
+		exists = KTZ
+	}
+}
+
+KDY = {
+	NOT = { 
+		exists = AFQ
+	}
+}
+
+JKY = {
+	always = yes
+}

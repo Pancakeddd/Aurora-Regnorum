@@ -1,0 +1,34 @@
+# 
+
+graphical_culture = inuitgfx
+
+color = { 255 181 194 }
+revolutionary_colors = { 98 94 163 }
+
+historical_score = 5
+
+preferred_religion = ae_shamanism
+
+historical_idea_groups = {
+	aristocracy_ideas
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+}
+
+historical_units = {
+}
+
+monarch_names = {
+}
+
+leader_names = {
+}
+
+ship_names = {
+	trebaleat
+}

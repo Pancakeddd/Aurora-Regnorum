@@ -1,0 +1,138 @@
+kordovaa_first_group = {
+		slot = 1
+		generic = no
+		ai = yes
+		potential = {
+			tag = KRD
+			NOT = { map_setup = map_setup_random }
+		}
+		has_country_shield = yes
+		
+		kordovaa_trade = {
+			icon = mission_sea_battles
+			required_missions = { }
+			position = 1
+			
+			trigger = {
+			200 = {
+				trade_share = {
+					country = ROOT
+					share = 25 
+				}
+			}
+			}
+			effect = {
+				218 = {
+				create_colony_mission_reward_province = {
+					country = ROOT
+			}
+				217 = {
+				create_colony_mission_reward_province = {
+					country = ROOT
+			}
+		}
+			prince_william_islands_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			whittier_fjords = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			valdez_fjords_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			}
+		}
+	}
+	kordovaa_sound = {
+		icon = mission_unite_coromandel
+		required_missions = { kordovaa_trade }
+		position = 2
+		
+		provinces_to_highlight = { 
+		OR = {
+		area = prince_william_islands_area 
+		area = valdez_fjords_area 
+			}
+		NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			prince_william_islands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			whittier_fjords_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns_or_non_sovereign_subject_of = 213
+		}
+		effect = {
+		add_navy_tradition = 10
+		161 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}	
+	}
+	kordovaa_seward = {
+		icon = mission_russian_navy
+		required_missions = { kordovaa_sound }
+		position = 3
+		
+		provinces_to_highlight = {
+			AND = {
+					NOT = { owned_by = ROOT }
+					province_id = 161
+				}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 161
+		}
+		effect = {
+		add_mercantilism = 5
+		161 = {
+				add_province_modifier = {
+					name = booming_kenai_port
+					duration = 5475
+					}
+					add_base_tax = 1
+					add_base_production = 2
+					add_base_manpower = 1
+					}
+		}	
+	}
+}

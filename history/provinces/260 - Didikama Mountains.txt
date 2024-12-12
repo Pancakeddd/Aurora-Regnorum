@@ -1,0 +1,12 @@
+culture = talkeetna
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = gold
+base_manpower = 1
+capital = "Didikama"
+native_size = 23
+native_ferocity = 4
+native_hostileness = 3
+discovered_by = north_american

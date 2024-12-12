@@ -1,0 +1,12 @@
+owner = TQK
+controller = TQK
+add_core = TQK
+culture = talkeetna
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = iron
+base_manpower = 1
+capital = "Twin River"
+discovered_by = north_american

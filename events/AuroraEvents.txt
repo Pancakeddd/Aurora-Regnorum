@@ -1,0 +1,218 @@
+#########################################
+# Events for the General Aurora-ing
+#
+# scripted by SeagullSox
+# Localization written by SeagullSox
+#########################################
+
+namespace = flavor_aurora
+normal_or_historical_nations = yes
+	
+# Literal Aurora lol
+country_event = {
+	id = flavor_aurora.1
+	title = flavor_aurora.1.t
+	desc = flavor_aurora.1.d
+	picture = COMET_SIGHTED_eventPicture	
+	
+	trigger {
+		OR = {
+		is_month = 10
+		NOT = { is_month = 2 }
+		}
+		capital_scope = {
+			OR = {
+				region = western_islands_region
+				region = kodiak_region
+				region = kenai_region
+				region = prince_william_sound_region
+				region = susitna_region
+				region = matanuska_region
+				region = glennallen_region
+			}
+		}
+	}
+		
+	mean_time_to_happen = {
+		months = 48
+	}
+	
+	option = {	#
+		name = flavor_aurora.1.a
+		ai_chance = { factor = 50 }
+		
+		add_stability = 1
+		add_war_exhaustion = -2
+	}
+}
+
+country_event = { #bear attack part 1
+	id = flavor_aurora.2
+	title = flavor_aurora.2.t
+	desc = flavor_aurora.2.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		is_at_war = no
+		NOT = { has_country_flag = had_bear_fun }
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+	option = {
+		name = flavor_aurora.2.a
+		ai_chance = { factor = 50 }
+		random_owned_province = {
+			limit = {
+				NOT = {
+					has_province_modifier = bear_trauma
+				}
+			}
+			add_province_modifier = {
+					name = bear_trauma
+					duration = 1825
+					}
+		}
+	}
+	
+	option = {
+		name = flavor_aurora.2.b
+		ai_chance = { factor = 50 }
+		add_years_of_income = -0.4
+		add_army_tradition = 10
+		random_list = { #root?
+							50 = { country_event = { 
+							id = flavor_aurora.3
+							days = 30
+							} }
+			50 = {
+			}
+		}
+	}
+	
+}
+
+country_event = { #bear attack part 2
+	id = flavor_aurora.3
+	title = flavor_aurora.3.t
+	desc = flavor_aurora.3.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+	option = { #yay
+		name = flavor_aurora.3.a 
+		ai_chance = { factor = 50 }
+		add_prestige = 20
+		set_country_flag = had_bear_fun
+	}
+	
+	option = { #lets stuff it
+		name = flavor_aurora.3.b
+		ai_chance = { factor = 50 }
+		add_prestige = 20
+		add_years_of_income = -0.5
+		capital_scope = {
+		add_province_modifier = {
+			name = "stuffed_bear"
+			duration = 7300
+		}
+		}
+	set_country_flag = had_bear_fun	
+	
+	}
+}
+
+country_event = { #Augustine Volcano
+	id = flavor_aurora.4
+	title = flavor_aurora.4.t
+	desc = flavor_aurora.4.d
+	picture = SIERRA_DE_LA_PLATA_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		is_year = 1451
+	}
+	mean_time_to_happen = {
+		months = 50
+	}
+	option = {
+		name = flavor_aurora.4.a 
+		every_province = {
+			limit = {
+				OR = {
+					region = kodiak_region
+					region = kenai_region
+					region = susitna_region
+					region = matanuska_region
+				}
+			}
+			add_province_modifier = {
+			name = "volcanic_winter_ak"
+			duration = 730
+		}
+		}
+		every_province = {
+			limit = {
+				OR = {
+					area = afognak_island_area
+					area = lands_end
+					area = kachemak_point
+					area = matanuska_region
+				}
+			}
+			add_devastation = 5
+		}
+		223 = {
+		add_devastation = 30
+		}
+	}
+}
+
+country_event = { #Birth of Anchorage
+	id = flavor_aurora.5
+	title = flavor_aurora.5.t
+	desc = flavor_aurora.5.d
+	picture = CITY_VIEW_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		is_year = 1475
+		133 = {
+		is_prosperous = yes
+		}
+	}
+	mean_time_to_happen = {
+		months = 5
+	}
+	option = {
+		name = flavor_aurora.5.a 
+		133 = {
+		add_base_tax = 2
+		add_base_production  = 3
+		add_base_manpower = 2
+		add_province_modifier = {
+						name = "anchorage_modifier"
+						duration = -1
+					}
+		if = {
+						limit = {
+						OR = {
+						owned_by = JKY
+						owned_by = MTS
+						owned_by = RGN
+						owned_by = VST
+						owned_by = KRH
+						}
+						}
+					change_province_name = "Ankuripaika"
+						rename_capital = "Ankuripaika"			
+		}
+		
+	}
+	}
+}
+
+

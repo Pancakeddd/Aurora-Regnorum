@@ -1,0 +1,15 @@
+owner = TGG
+controller = TGG
+add_core = TGG
+culture = denaina
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 2
+trade_goods = fish
+base_manpower = 2
+capital = "Vozna"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

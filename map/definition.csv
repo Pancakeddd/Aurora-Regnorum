@@ -1,0 +1,488 @@
+provinces;red;green;blue;x;x
+1;255;87;163;Gambell;x
+2;0;92;255;Savoonga;x
+3;255;97;255;Maknek;x
+4;60;240;205;Coast of Savoonga;x
+5;50;230;205;Kiloknak Point;x
+6;40;200;205;Saint Lawrence Bight;x
+7;40;220;205;Far West Bank;x
+8;100;220;190;A1;x
+9;30;220;220;A2;x
+10;0;210;210;A3;x
+11;60;250;220;A4;x
+12;60;230;240;A5;x
+13;60;220;230;A6;x
+14;38;240;240;A7;x
+15;38;230;230;A8;x
+16;38;240;250;A9;x
+17;60;250;205;A10;x
+18;38;220;220;A11;x
+19;60;220;220;A12;x
+20;38;200;200;A13;x
+21;38;180;180;A14;x
+22;38;210;220;A15;x
+23;38;220;230;A16;x
+24;38;230;240;A17;x
+25;60;230;230;A18;x
+26;50;220;220;A19;x
+27;20;230;220;A20;x
+28;38;250;250;A21;x
+29;60;240;240;A22;x
+30;60;205;205;A23;x
+31;94;220;202;A24;x
+32;94;220;252;A25;x
+33;110;210;190;A26;x
+34;117;201;201;A27;x
+35;106;225;255;A28;x
+36;74;222;252;A29;x
+37;58;202;252;A30;x
+38;0;250;250;A31;x
+39;78;202;253;A32;x
+40;30;220;230;A33;x
+41;78;202;202;A34;x
+42;0;220;220;A35;x
+43;84;210;252;A36;x
+44;0;40;255;Saint Matthew Island;x
+45;50;245;205;Glory of Russia Cape;x
+46;128;42;0;Peril Cape;x
+47;0;44;64;Shuyak Island;x
+48;129;46;128;Paramanof;x
+49;1;48;192;Afognaq;x
+50;129;50;255;Puyurniq;x
+51;1;52;0;Kodiak;x
+52;129;54;64;Sitkalidak Island;x
+53;1;56;128;Uganik;x
+54;60;60;0;Ouzinkie;x
+55;2;60;255;Sitkanak Island;x
+56;130;62;0;Tugidak Island;x
+57;2;64;64;Chirikof Island;x
+58;130;66;128;Chilly Bluff;x
+59;50;0;90;Womens Bay;x
+60;131;86;128;Old Harbor;x
+61;136;154;64;Kodiak Range;x
+62;8;156;128;Three Sisters;x
+63;137;158;192;Chiniak;x
+64;9;32;255;Pasagshak;x
+65;137;34;0;Qanglluk;x
+66;9;36;64;Sharatin;x
+67;137;38;128;Glottof;x
+68;9;40;192;Southern Koniag;x
+69;137;42;255;Arrowhead Point;x
+70;138;46;64;Iwaliq;x
+71;10;48;128;Silonvik;x
+72;131;82;0;Port Lyons;x
+73;138;50;192;Kupreanof;x
+74;10;52;255;Rolling Point;x
+75;138;54;0;Port Obrien;x
+76;10;56;64;Spiridonsk Peninsula;x
+77;200;200;130;Northern Koniag;x
+78;11;60;192;Amook;x
+79;139;62;255;Terror Valley;x
+80;11;64;0;Keneq Harbor;x
+81;139;66;64;Larson Bay;x
+82;150;68;128;Lower Karluk;x
+83;139;70;192;Upper Karluk;x
+84;12;72;255;Ketgwani;x
+85;140;74;0;Waakeq;x
+86;12;76;64;Qukani;x
+87;140;78;128;Uksumi;x
+88;12;80;192;Quyarlluku;x
+89;140;82;255;East Knifehead;x
+90;12;84;0;West Knifehead;x
+91;9;58;193;Red Cloud;x
+92;100;250;250;Marmot Bay;x
+93;100;245;250;Marin Bight;x
+94;100;240;250;Chiniak Bay;x
+95;100;225;250;Northern Barnabas Sea;x
+96;100;235;250;Ugak Bay;x
+97;100;215;250;Sitkalidak Strait;x
+98;100;205;250;Three Saints Bay;x
+99;100;180;250;Southern Barnabas Sea;x
+100;100;195;250;Sitkanak Strait;x
+101;100;165;250;Chirikof Gap;x
+102;100;150;250;Alitak Bay;x
+103;100;250;245;Western Coast of Kodiak;x
+104;100;240;245;Western Shelikof Strait;
+105;100;230;245;Eastern Shelikof Strait;x
+106;100;210;245;Uganik Bay;x
+107;100;195;245;Strait of Kupreanof;x
+108;100;190;245;Terror Lake;x
+109;100;185;245;Karluk Lake;x
+110;100;175;245;Frazer Lake;x
+111;100;170;245;Red Lake;x
+112;100;220;245;Uyak Bay;x
+113;100;180;245;South Cape;x
+114;100;155;245;Tonki Bay;x
+115;16;132;255;Mantague Island;x
+116;190;24;183;B1;x
+117;170;24;183;B2;x
+118;150;24;183;B2;x
+119;130;24;183;B4;x
+120;110;24;183;B5;x
+121;90;24;183;B6;x
+122;70;24;183;B7;x
+123;50;24;183;B8;x
+124;30;24;183;B9;x
+125;200;24;175;B10;x
+126;180;24;175;B11;x
+127;160;24;175;B12;x
+128;140;24;175;B13;x
+129;120;24;175;B14;x
+130;100;24;175;B15;x
+131;80;24;175;B16;x
+132;60;24;175;B17;x
+133;147;46;0;Anchorage Point;x
+134;19;44;255;Rabbit Creek;x
+135;18;36;0;Basher;x
+136;19;48;64;Taku;x
+137;147;50;128;Fire Island;x
+138;19;52;192;Eagle River;x
+139;147;54;255;Alyeska;x
+140;20;56;0;Anchorage Wilds;x
+141;148;58;64;Portage;x
+142;20;60;128;Whittier;x
+143;148;62;192;Anch Glacier;x
+144;20;64;255;Whit Glacier;x
+145;148;66;0;Hope;x
+146;20;68;64;Sunrise;x
+147;149;70;128;Moose Pass;x
+148;21;72;192;Cooper Landing;x
+149;149;74;255;Moose Mtns;x
+150;21;76;0;North Turn Swamp;x
+151;149;78;64;Nikiski;x
+152;21;80;128;Culross;x
+153;149;82;192;Elshamy;x
+154;22;84;255;Salamatof;x
+155;150;86;0;Kenai;x
+156;22;88;64;Soldotna;x
+157;150;90;128;Sterling;x
+158;22;92;192;Skilak;x
+159;150;94;255;South Turn Swamp;x
+160;22;96;0;Primrose;x
+161;151;98;64;Seward;x
+162;23;100;128;Chenega Glacier;x
+163;151;102;192;Seward Glacier;x
+164;23;104;255;Seldovia Glacier;x
+165;151;106;0;Nanwalek;x
+166;23;108;64;Seldovia;x
+167;151;110;128;Halibut;x
+168;24;112;192;South Skilak;x
+169;152;114;255;Tustamena;x
+170;24;116;0;Kasilof;x
+171;152;118;64;Ninilchik;x
+172;24;120;128;Happy Valley;x
+173;152;120;192;Anchor Point;x
+174;24;124;255;Homer;x
+175;153;126;0;Voznesenka;x
+176;25;128;64;Dolima;x
+177;153;130;128;South Tustamena;x
+178;25;132;192;Chenega;x
+179;153;134;255;Knight Islands;x
+180;100;241;241;Knik Arm;x
+181;100;231;241;Turnagain Arm;x
+182;100;221;241;Coast of Tyonek;x
+183;100;201;241;Cape Chernaya;x
+184;100;181;241;Nikiski Narrows;x
+185;100;161;241;West Coast of Kalgin;x
+186;100;141;241;East Coast of Kalgin;x
+187;100;121;241;Kamishak Bay;x
+188;100;101;241;Kachemak Bay;x
+189;100;241;243;Upper Cook Inlet;x
+190;100;221;243;Amatuli Islands;x
+191;100;201;243;Ragged Coast;x
+192;100;181;243;Resurrection Bay;x
+193;100;161;243;Eklutna Lake;x
+194;100;141;243;Kenai Lake;x
+195;100;121;243;Skilak Lake;x
+196;100;101;243;Tustamena Lake;x
+197;100;241;242;Blying Sound;x
+198;100;180;242;Knight Island Passage;x
+199;100;160;242;The Nelles;x
+200;100;120;242;Prince William Sound;x
+201;100;100;242;Valdez Arm;x
+202;100;80;242;Gravina Bay;x
+203;100;240;241;Coast of Cordova;x
+204;100;200;241;Coast of Katalia;x
+205;100;180;241;Montague Sea;x
+206;100;150;241;Northern Kodiak Dropoff;x
+207;100;130;241;Southern Kodiak Dropoff;x
+208;100;110;241;South Coast of Chirikof;x
+209;100;50;241;Lower Cook Inlet;x
+210;30;68;0;Esteria;x
+211;158;70;64;Esteria Glacier;x
+212;30;72;128;Valdez Glacier;x
+213;158;74;192;Valdez;x
+214;30;76;255;Tatitlek;x
+215;158;78;0;Gravina;x
+216;30;80;64;Cordova;x
+217;159;82;128;Hawkins Island;x
+218;105;15;106;Hinchenbrook Island;x
+219;100;140;242;Cochrane Bay;x
+220;31;88;0;West Moose Mountains;x
+221;159;90;64;Kenai Rise;x
+222;31;92;128;Kalgin Island;x
+223;159;94;192;Augustine Island;x
+224;82;96;255;Point Mackenzie;x
+225;160;98;0;Goose Bay;x
+226;32;100;64;Fairview;x
+227;160;102;128;Knik Marsh;x
+228;32;104;192;Upper Knik;x
+229;160;106;255;Butte;x
+230;32;108;0;Palmer;x
+231;161;110;64;Wasilla;x
+232;33;112;128;Sutton;x
+233;166;203;93;Little Susitna;x
+234;33;116;255;Flathorn;x
+235;161;118;0;Susitna;x
+236;33;120;64;Alexander Creek;x
+237;161;222;128;Beluga;x
+238;34;124;192;Tyonek;x
+239;162;126;255;Kustatan;x
+240;34;128;0;Upper Beluga;x
+241;162;130;64;Bunitlana;x
+242;34;132;128;Chakachamna Pass;x
+243;162;134;192;Tordrillo Glacier;x
+244;34;136;255;Chigmit Glacier;x
+245;163;138;0;Susitna Twins;x
+246;35;140;64;Meadow Lake;x
+247;163;142;128;Big Lake;x
+248;35;144;192;Willow;x
+249;163;146;255;Yentna Susitna;x
+250;35;148;0;South Skwentna Marsh;x
+251;163;150;64;Skwentna;x
+252;36;152;128;Beluga Mountains;x
+253;164;152;192;Eaglesong;x
+254;36;156;255;Whiskey Lake;x
+255;164;158;0;Porcupine Mountains;x
+256;36;32;64;Kitchatna River;x
+257;164;34;128;Trapper Lake;x
+258;36;36;192;East Skwentna;x
+259;165;38;255;Yenlo;x
+260;37;40;0;Didikama Mountains;x
+261;165;42;64;Sheep Creek Slough;x
+262;37;44;128;Amber Lake;x
+263;165;46;192;Nelchina Glacier;x
+264;37;48;255;Talkeetna;x
+265;165;50;0;North Talkeetna;x
+266;38;52;64;Trapper Creek;x
+267;166;54;128;Petersville;x
+268;38;56;192;Yentna Fork;x
+269;166;56;255;Denali Glacier;x
+270;38;60;0;Chelatna Lake;x
+271;166;62;64;Iron Mountain;x
+272;38;64;128;Kesugi Mountains;x
+273;167;66;192;Northern Nelchina Mountains;x
+274;39;68;255;Southern Nelchina Mountains;x
+275;167;70;0;Eastern Nelchina Mountains;x
+276;39;72;64;Kings Glacier;x
+277;167;74;128;Chickaloon;x
+278;39;76;192;Glacier View;x
+279;167;78;255;Nelchina;x
+280;40;80;0;Glennallen;x
+281;168;82;64;Silver Springs;x
+282;40;84;128;Tonsina;x
+283;168;86;192;Cordova Glacier;x
+284;40;88;255;Cantwell Glacier;x
+285;168;90;0;Cantwell;x
+286;40;92;64;Tsusena Glacier;x
+287;98;255;239;Kayak Sea;x
+288;98;240;239;Icy Bay;x
+289;98;225;239;Yakutat Bay;x
+290;98;210;239;Alsek Coast;x
+291;98;195;239;Cape Spencer;x
+292;98;180;239;Cross Sound;x
+293;98;165;239;Salisbury Sound;x
+294;98;140;239;Sitka Sound;x
+295;98;125;239;Alexander Sea;x
+296;98;110;239;Dall Sea;x
+297;98;95;239;Dixon Entrance;x
+298;94;255;239;Discovery Coast;x
+299;94;240;239;Ketchikan Sound;x
+300;94;225;239;Eastern Behm Canal;x
+301;94;210;239;Western Behm Canal;x
+302;94;195;239;South Clarence Strait;x
+303;94;180;239;Central Clarence Strait;x
+304;94;165;239;North Clarence Strait;x
+305;94;150;239;Sitkine Narrows;x
+306;94;135;239;Wrangell Narrows;x
+307;94;120;239;Keku Strait;x
+308;94;105;239;Trebenkof Bay;x
+309;94;90;239;Frederick Sound;x
+310;94;75;239;Stephens Passage;x
+311;88;255;239;Hoonah Sound;x
+312;88;240;239;Icy Strait;x
+313;88;225;239;Glacier Bay;x
+314;88;210;239;Favorite Channel;x
+315;88;190;239;Gastineau Channel;x
+316;88;175;239;Sutwik Channel;x
+317;88;160;239;Ivanof Sea;x
+318;88;145;239;Aleutian Shelf;x
+319;88;130;239;Belkofski Islands;x
+320;88;115;239;Morzhovoi Sea;x
+321;88;100;239;Herendeen Bay;x
+322;88;75;239;Coast of Heiden;x
+323;82;255;239;East Bristol Bay;x
+324;82;240;239;West Bristol Bay;x
+325;82;225;239;Togiak Bay;x
+326;82;210;239;Outer Bristol;x
+327;82;195;239;Nunivak Sea;x
+328;82;180;239;Scammon Coast;x
+329;82;165;239;Bethel Bay;x
+330;140;17;214;Dall Island;x
+331;140;37;214;Lulu Islands;x
+332;140;67;214;Bokan;x
+333;140;97;214;Hydaburg;x
+334;140;127;214;Hollis;x
+335;140;157;214;Waterfall;x
+336;140;187;214;Kasaan;x
+337;140;217;214;Klowock;x
+338;140;247;214;Thorne Bay;x
+339;24;10;214;Galea;x
+340;24;40;214;Coffman Cove;x
+341;24;70;214;Kosciusko;x
+342;24;100;214;Whale Pass;x
+343;24;131;214;Naukati Bay;x
+344;24;161;214;Port Protection;x
+345;24;191;214;Dixon Point;x
+346;97;19;20;Duke Island;x
+347;97;49;20;Metlakatla Island;x
+348;97;79;20;Black Sand Point;x
+349;97;109;20;Ketchikan;x
+350;97;139;20;Gokachin;x
+351;97;169;20;East Revi;x
+352;97;199;20;Tsa;x
+353;97;229;20;Loring;x
+354;97;249;20;North Revi;x
+355;203;3;20;Coronation Island;x
+356;203;33;20;South Kuiu;x
+357;203;63;20;North Kuiu;x
+358;203;93;20;East Kuiu;x
+359;203;123;20;Keku Coast;x
+360;203;153;20;Towers;x
+361;203;183;20;Big John;x
+362;203;213;20;Kake;x
+363;203;243;20;Petersburg;x
+364;203;203;20;Mitkof;x
+365;2;239;21;Zarembo Island;x
+366;2;219;21;South Etolin;x
+367;2;199;21;Mid Etolin;x
+368;2;178;21;West Etolin;x
+369;2;159;21;Wrangell Wildside;x
+370;2;139;21;Wrangell;x
+371;2;119;21;Port Alexander;x
+372;2;99;21;Politofski;x
+373;2;79;21;Patterson;x
+374;2;59;21;Redoubt;x
+375;2;39;21;Sitka;x
+376;56;253;21;Takatz;x
+377;56;233;21;Catherine;x
+378;56;213;21;Magoun;x
+379;56;193;21;Kruzof;x
+380;56;173;21;Salisbury;x
+381;56;153;21;Elfendahl;x
+382;56;133;21;Pelican;x
+383;56;113;21;Sunnyside;x
+384;56;93;21;Elfin;x
+385;56;73;21;Frederick;x
+386;56;53;21;Sitkoh;x
+387;56;33;21;South Kadahan;x
+388;56;13;21;North Kadahan;x
+389;56;0;21;Seal Bay;x
+390;53;253;41;Tanakee;x
+391;53;233;41;Chich Edge;x
+392;53;213;41;Hoonah;x
+393;53;193;41;Freshwater;x
+394;53;163;41;Herring Bay;x
+395;53;133;41;Whitewater Bay;x
+396;53;73;41;Pybus Bay;x
+397;53;43;41;Angoon;x
+398;53;13;41;Gambler Bay;x
+399;53;0;41;Admiral Glacier;x
+400;181;243;61;Thayer;x
+401;181;213;61;Cube Cove;x
+402;181;193;61;Funter;x
+403;181;173;61;North Admiral;x
+404;181;153;61;Upper Admiral Peninsula;x
+405;181;133;61;Lower Admiral Peninsula;x
+406;181;113;61;North Hasselborg;x
+407;181;93;61;South Hasselborg;x
+408;181;73;61;Douglas Island;x
+409;181;53;61;Alaganik;x
+410;181;33;61;Katalla;x
+411;181;13;61;Kayak Island;x
+412;222;13;61;Kanak Runoff;x
+413;222;33;61;Tsiu River;x
+414;222;53;61;Loganview;x
+415;222;73;61;Icy Coast;x
+416;222;93;61;Malaspina;x
+417;222;113;61;Disenchantment;x
+418;222;133;61;Yakutat;x
+419;222;153;61;West Harlequin;x
+420;222;173;61;East Harlequin;x
+421;222;193;61;Watsonview;x
+422;222;213;61;Fairweather;x
+423;222;233;61;Lemesurier;x
+424;222;253;61;Haines;x
+425;209;253;61;Skagway;x
+426;209;233;61;Teepee;x
+427;209;213;61;Klukwan;x
+428;209;193;61;Lutak;x
+429;209;173;61;Mosquito Lake;x
+430;209;153;61;Rainy Hollow;x
+431;209;133;61;Skagway Glacier;x
+432;209;113;61;Gustavus;x
+433;209;103;61;Excursion Inlet;x
+434;209;83;61;Gustavus Glacier;x
+435;209;73;61;Fairweather Glacier;x
+436;209;63;61;Yakutat Glacier;x
+437;209;53;61;Icy Bay Glacier;x
+438;209;43;61;Juneau Glacier;x
+440;209;33;61;Hobart Glacier;x
+441;209;0;61;Wrangell Glacier;x
+442;139;22;61;Far Tip Glacier;x
+443;139;32;61;Helm Peninsula;x
+444;139;42;61;Lax Kwalaams;x
+445;139;62;61;Gingolx;x
+446;139;82;61;Anyox;x
+447;139;92;61;Kitsault;x
+448;139;102;61;Aiyansh;x
+449;139;112;61;Gitwin;x
+450;139;122;61;Xaisla;x
+451;139;132;61;Kitmat;x
+452;139;142;61;Atna;x
+453;139;152;61;Juneau;x
+454;139;172;61;Mendendahl;x
+455;139;192;61;Tulsequah;x
+456;139;212;61;Saint Terese;x
+457;169;94;128;Nelchina Marshlands;x
+458;168;94;127;East Eklutna;x
+459;148;124;117;Northeast Alyeska;x
+460;128;124;107;Northwest Alyeska;x
+461;118;124;107;North Voznesenka;x
+462;108;124;137;Southeast Tustemena;x
+463;98;124;137;North Kenai Tip;x
+464;88;124;147;West Hope;x
+465;67;220;255;Tigalda Gap;x
+466;67;220;226;Nikolski Sea;x
+467;67;220;204;Amlia Gap;x
+468;67;220;254;Andreanof Sea;x
+469;67;220;234;Ulak Sea;x
+470;67;246;253;Rat Sea;x
+471;67;246;240;Agattu Sea;x
+472;66;246;252;Attu Sea;x
+473;87;246;252;Shemya Sea;x
+474;107;246;252;Gareloi Sea;x
+475;118;222;252;Kanaga Coast;x
+476;118;202;252;Atka Sea;x
+477;118;182;252;Adak Bay;x
+478;118;172;252;Yunaska Sea;x
+479;128;240;252;Umnak Coast;x
+480;128;220;252;Unalaska Bay;x
+481;128;201;252;Unimak Link Sea;x
+482;128;181;252;Pribolof Sea;x
+483;128;170;252;East Pribolof Expanse;x
+484;128;155;252;West Pribolof Expanse;x
+485;127;234;252;Saint Connection Sea;x
+486;127;204;252;Lawrence Matthew Sea;x
+
+

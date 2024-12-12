@@ -1,0 +1,640 @@
+KDY_ideas = {
+	free = yes
+	start = {
+		global_heretic_missionary_strength = 0.02
+		diplomatic_reputation = 1
+	}
+
+	bonus = {
+		heavy_ship_power = 0.15
+	}
+
+	trigger = {
+		tag = KDY
+	}
+
+	kodiak_fisheries = {
+		naval_maintenance_modifier = -0.1
+		development_cost = -0.05
+	}
+
+	legacy_of_three_saints_bay = {
+		global_unrest = -1
+	}
+
+	sea_otter_industry = {
+		global_prov_trade_power_modifier = 0.2
+	}
+
+	our_rugged_island = {
+		hostile_attrition = 1
+		defensiveness = 0.15
+	}
+
+	the_afognak_wars = {
+		discipline = 0.05
+	}
+
+	remembrance_of_the_holy_fathers = {
+		tolerance_own = 2
+	}
+
+	melting_pot_of_the_gulf = {
+		technology_cost = -0.05
+		idea_cost = -0.1
+	}
+}
+
+AFQ_ideas = {
+	start = {
+		land_attrition = -0.15
+		fire_damage_received = -0.1
+	}
+
+	bonus = {
+		land_maintenance_modifier = -0.1
+	}
+
+	trigger = {
+			tag = AFQ
+	}
+	free = yes
+
+	heart_of_the_island = {
+		movement_speed = 0.15
+		leader_land_manuever = 1
+	}
+
+	ciqlluaq_houses = {
+		defensiveness = 0.2
+		build_cost = -0.1
+	}
+
+	agwaneq_subsistence = {
+		global_trade_goods_size_modifier = 0.1
+	}
+
+	the_kadyak_struggle = {
+		recover_army_morale_speed = 0.10
+		manpower_recovery_speed = 0.15
+	}
+
+	olsinuk_integrity = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+
+	our_fellow_yupiks = {
+		diplomatic_upkeep = 1
+	}
+
+	red_cedar = {
+		yearly_corruption = -0.2
+	}
+}
+
+SPQ_ideas = {
+	start = {
+		land_attrition = -0.25
+		fire_damage_received = -0.15
+	}
+
+	bonus = {
+		land_maintenance_modifier = -0.1
+	}
+
+	trigger = {
+			tag = SPQ
+	}
+	free = yes
+
+	spq_cungaciq = {
+		movement_speed = 0.15
+		has_marines = yes
+		allowed_marine_fraction = 0.1
+	}
+
+	ciqlluaq_houses = {
+		defensiveness = 0.2
+		build_cost = -0.1
+	}
+
+	koniag_subsistence = {
+		global_trade_goods_size_modifier = 0.15
+	}
+
+	taking_kanaayuq = {
+		land_morale = 0.10
+	}
+
+	alutiiq_eldership = {
+		same_culture_advisor_cost = -0.25
+		yearly_corruption = -0.1
+	}
+
+	our_fellow_yupiks = {
+		diplomatic_upkeep = 1
+	}
+
+	canoes_warships = {
+		heavy_ship_hull_size_modifier = 0.1
+	}
+}
+
+TSB_ideas = {
+	start = {
+		advisor_cost = -0.10
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = TSB
+	}
+	free = yes		#will be added at load.
+	
+	honor_basil = {
+		tolerance_own = 1
+		global_unrest = -1
+	}
+	become_gentile = {
+		diplomatic_reputation = 1
+	}
+	honor_three = {
+		church_loyalty_modifier = 0.20
+	}
+	people_of_the_bay = {
+		naval_morale = 0.15
+	}
+	honor_john = {
+		yearly_corruption = -0.2
+	}
+	from_ice = {
+		leader_land_manuever = 1
+		land_attrition = -0.1
+	}
+	alutiiqs_knowledge = {
+		diplomatic_upkeep = 1
+		global_trade_goods_size_modifier = 0.15
+	}
+}
+
+NNQ_ideas = {
+	start = {
+		advisor_cost = -0.15
+		manpower_in_accepted_culture_provinces = 0.15
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = NNQ
+	}
+	free = yes		#will be added at load.
+	
+	nnq_barabaras = {
+		development_cost_modifier = -0.10
+	}
+	nnq_become_gentile = {
+		diplomatic_reputation = 1
+		relation_with_other_culture = 15
+	}
+	honor_three = {
+		church_loyalty_modifier = 0.20
+	}
+	nnq_people_of_kodiak = {
+		naval_morale = 0.15
+		naval_maintenance_modifier = -0.1
+		
+	}
+	honor_john = {
+		yearly_corruption = -0.2
+	}
+	from_ice = {
+		leader_land_manuever = 1
+		land_attrition = -0.1
+	}
+	alutiiqs_integrated = {
+		diplomatic_upkeep = 1
+		global_trade_goods_size_modifier = 0.20
+	}
+}
+VLZ_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		global_unrest = -1
+	}
+	bonus = {
+		fire_damage_received = -0.1
+	}
+	trigger = {
+		OR = {
+		tag = VLZ
+		tag = SGL
+		tag = RZK
+		}
+	}
+	free = yes
+	vlz_national_identity = {
+		manpower_in_accepted_culture_provinces = 0.2
+	}
+	vlz_swift_march_south = {
+		core_creation = -0.1
+		num_accepted_cultures = 1
+	}
+	vlz_religious_flexibility = {
+		tolerance_of_heretics_capacity = 2
+		tolerance_heathen = 1
+	}
+	vlz_latvian_people = {
+		global_unrest = -2
+	}
+	vlz_remember_latvian_castles = {
+		defensiveness = 0.2
+		build_time = -0.25
+	}	
+	vlz_daina = {
+		prestige_decay = -0.01
+	}
+	vlz_reduction_of_noble_lands = {
+		global_autonomy = -0.05
+		nobles_influence_modifier = -0.1
+	}
+}
+KAG_ideas = {
+	start = {
+		sailor_maintenance_modifer = -0.1
+		cavalry_cost = -0.15
+	}
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	trigger = {
+		OR = {
+		tag = KAG
+		}
+	}
+	free = yes
+	
+	kag_brotherhood_of_blackheads = {
+		global_manpower_modifier = 0.10
+		movement_speed = 0.10
+	}
+	kag_estonian_sailors = {
+		ship_durability = 0.05
+		sailors_recovery_speed = 0.15
+	}
+	kag_seige_tactics = {
+		siege_ability = 0.10
+	}
+	kag_tallinast_mercs = {
+		merc_maintenance_modifier = -0.20
+		mercenary_discipline = 0.05	
+	}
+	kag_baltic_trade = {
+		merchants = 1
+		global_trade_power = 0.1
+	}
+	kag_estophilia = {
+		diplomatic_reputation = 1
+	}
+	kag_national_awakening = {
+		global_unrest = -1
+		technology_cost = -0.05
+	}
+}
+
+KRD_ideas = {
+	start = {
+		galley_power = 0.15
+		colony_cost_modifier = -0.3
+	}
+	bonus = {
+		trade_company_investment_cost = -0.25
+	}
+	trigger = {
+		tag = KRD
+	}
+	free = yes
+	
+	kordovaan_boldness = {
+		power_projection_from_insults = 0.75
+	}
+	literally_no_room = {
+		state_governing_cost = -0.2
+		global_unrest = -1
+	}
+	rugged_waters_fix = {
+		sea_repair = yes
+	}
+	kordovaan_ships = {
+		global_ship_trade_power = 0.25
+	}
+	kordovaan_missionary	= {
+		tolerance_of_heretics_capacity = 2
+		tolerance_heathen = 1
+	}
+	kordovaan_boat_trade = {
+		navy_tradition = 0.5
+		naval_tradition_from_trade = 0.25
+	}
+	kordavaan_lessons_from_warfare = {
+		infantry_power = 0.10
+	}
+}
+
+NAR_ideas = {
+	start = {
+		naval_morale = 0.15
+		naval_maintenance_modifier = -0.2
+	}
+	bonus = {
+		tolerance_own = 1
+	}
+	trigger = {
+		tag = NAR
+	}
+	free = yes
+	
+	frozen_hearts_nar = {
+		prestige_per_development_from_conversion = 0.5
+	}
+	greenhouses_of_nar = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	terrace_farms_nar = {
+		development_cost = -0.1
+	}
+	coffea_arabica_nar = {
+		global_trade_power = 0.1
+	}
+	arab_diplomacy_nar	= {
+		improve_relation_modifier = 0.25
+	}
+	nar_cannoneers = {
+		artillery_power = 0.10
+		artillery_barrage_cost = -0.15
+		global_naval_barrage_cost = -0.15
+	}
+	subdue_alaska_nar = {
+		colonist_placement_chance = 0.05
+	}
+}
+
+KTZ_ideas = {
+	start = {
+		vassal_income = 0.25
+		reduced_liberty_desire = 10
+	}
+	bonus = {
+		ship_trade_power_modifier = 0.2
+	}
+	trigger = {
+		tag = KTZ
+	}
+	free = yes
+	
+	kahtnu_fisheries_ktz = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	great_leaders_ktz	= {
+		diplomatic_annexation_cost = -0.25
+	}
+	yaghenen_ambition_ktz = {
+		land_morale = 0.05
+		land_forcelimit_modifier = 0.15
+	}
+	native_youth_games = {
+		army_tradition_decay = -0.01
+		prestige = 0.5
+	}
+	people_in_between_ktz = {
+		diplomatic_reputation = 2
+	}
+	peninsula_trade_ktz = {
+		trade_steering = 0.15
+	}
+	denaina_on_water_ktz = {
+		naval_morale = 0.1
+	}
+}
+
+VIN_ideas = {
+	start = {
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
+		land_moral = 0.2
+	}
+	
+	bonus = {
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
+	}	
+
+	trigger = {
+		tag = VIN
+	}
+	free = yes
+	
+	VIN_althingi = {
+		may_explore = yes
+	}
+	VIN_hrafna_floki = {
+		global_ship_recruit_speed = -0.2
+	}
+	VIN_christian_identity = {
+		papal_influence = 1
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.1
+		global_missionary_strength = 0.01
+	}
+	VIN_merchant_navy = {
+		light_ship_power = 0.15
+	}
+	VIN_fire_and_ice = {
+		discipline = 0.05
+	}
+	VIN_natural_builders = {
+		build_cost = -0.1
+		development_cost = -0.05
+	}
+	VIN_nationalism = {
+		culture_conversion_cost = -0.2
+	}
+}
+
+KKS_ideas = {
+	start = {
+		galley_power = 0.15
+		add_tribal_land_cost = -0.25
+	}
+	
+	bonus = {
+		army_tradition = 1
+	}	
+
+	trigger = {
+		tag = KKS
+	}
+	free = yes
+	
+	KKS_resistance = {
+		manpower_recovery_speed = 0.10
+		reinforce_speed = 0.10
+	}
+	KKS_sapling_fort = {
+		fort_maintenance_modifier = -0.25
+		defensiveness = 0.15
+		may_refill_garrison = yes
+	}
+	moity_system_tl = {
+		stability_cost_modifier = -0.2
+	}
+	KKS_totem_culture = {
+		global_unrest = -1
+	}
+	trade_with_south_tl = {
+ 		trade_efficiency = 0.1
+	}
+	KKS_warriors = {
+		land_morale = 0.10
+	}
+	subjugation_tl = {
+		vassal_forcelimit_bonus = 0.25
+		liberty_desire_from_subject_development = -0.25
+	}
+}
+
+EYK_ideas = {
+	start = {
+		transport_cost = -0.5
+		privateer_efficiency = 0.2
+	}
+	
+	bonus = {
+		landing_penalty = -1
+	}	
+
+	trigger = {
+		tag = EYK
+	}
+	free = yes
+	
+	EYK_salmon = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	EYK_middle_people = {
+		dip_tech_cost_modifier = -0.1
+		diplomatic_upkeep = 1
+	}
+	EYK_kordovaan_threat = {
+		mercenary_cost = -0.15
+		merc_maintenance_modifier = -0.15
+	}
+	EYK_religious = {
+		papal_influence = 1
+		church_power_modifier = 0.15
+		monthly_fervor_increase = 1
+		monthly_piety = 0.001
+	}
+	EYK_language = {
+ 		improve_relation_modifier = 0.2
+	}
+	EYK_isolate = {
+		same_culture_advisor_cost = -0.25
+	}
+	EYK_boats = {
+		ship_durability = 0.1
+	}
+}
+
+HLM_ideas = {
+    start = {
+        naval_forcelimit_modifier = 0.2
+        may_perform_slave_raid_on_same_religion = yes
+    }
+    bonus = {
+        own_coast_naval_combat_bonus = 1
+    }
+    trigger = {
+        tag = HLM
+    }
+    free = yes
+
+    memories_of_baltic_hlm = {
+        galley_power = 0.15
+    }
+    home_for_misfits_criminals_hlm = {
+        development_cost = -0.1
+        spy_offence = 0.25
+    }
+    jarvinen_dynasty_hlm = {
+        legitimacy = 1
+    }
+    chenega_marines_hlm = {
+        has_marines = yes
+        allowed_marine_fraction = 0.2
+        discipline = 0.025
+    }
+    acceptance_of_pagans_hlm = {
+        tolerance_heathen = 2
+       tolerance_of_heathens_capicity = 2
+    }
+    captain_wrede_longbeard_hlm = {
+        privateer_efficiency = 0.33
+        sea_repair = yes
+    }
+    saaremaa_black_bread_hlm = {
+        production_efficiency = 0.15
+        monarch_lifespan = 0.01
+    }
+}
+
+KPR_ideas = {
+    start = {
+        allowed_cossack_fraction = 0.5
+        global_missionary_strength = 0.02
+    }
+    bonus = {
+        max_absolutism = 20
+    }
+    trigger = {
+        tag = KPR
+    }
+    free = yes
+
+    pick_up_the_phone_kpr = {
+        cavalry_power = 0.1
+        cav_to_inf_ratio = 0.2
+    }
+    art_and_music_kpr = {
+        idea_cost = -0.05
+    }
+    capture_of_nikiski_kpr = {
+        galley_power = 0.1
+    }
+    administrative_boyars_kpr = {
+        governing_cost = -0.15
+        defensiveness = 0.25
+    }
+    expand_tribute_system_kpr = {
+        vassal_income = 0.33
+    }
+    eager_settlers_kpr = {
+        global_colonial_growth = 25
+        development_cost = -0.1
+    }
+    susitna_plentiful_kpr = {
+        global_trade_goods_size_modifier = 0.1
+    }
+}
+
+

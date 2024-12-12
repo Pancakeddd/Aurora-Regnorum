@@ -1,0 +1,39 @@
+# A region can only belong to one super region.
+
+western_alaska_superregion = {
+	western_islands_region
+}
+
+southern_islands_superregion = {
+	kodiak_region
+}
+
+southcentral_superregion = {
+	prince_william_sound_region
+	susitna_region
+	matanuska_region
+	glennallen_region
+	kenai_region
+}
+
+panhandle_superregion = {
+	south_panhandle_region
+	north_panhandle_region
+	yakutat_coast_region
+}
+
+panhandle_sea_superregion = {
+	panhandle_sea_region
+}
+
+lawrence_sea_superregion = {
+	lawrence_sea_region
+}
+
+kodiak_sea_superregion = {
+	kodiak_sea_region
+}
+
+kenai_sea_superregion = {
+	kenai_sea_region
+}

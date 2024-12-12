@@ -1,0 +1,22 @@
+owner = NNW
+controller = NNW
+add_core = NNW
+culture = alutiiq
+religion = ae_shamanism
+hre = no
+base_tax = 1 
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Lagoon Village"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+
+1444.1.1 = {
+	add_province_modifier = {
+		name = "nantiinaq_fear"
+		duration = -1
+	}
+}

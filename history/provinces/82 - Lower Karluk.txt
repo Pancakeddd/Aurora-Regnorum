@@ -1,0 +1,18 @@
+owner = KRQ
+controller = KRQ
+add_core = KRQ
+culture = alutiiq
+religion = ae_shamanism
+
+hre = no
+
+base_tax = 1 
+base_production = 2
+base_manpower = 2
+
+trade_goods = fish
+capital = "Karluk"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

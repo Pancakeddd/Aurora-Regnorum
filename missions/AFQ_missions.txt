@@ -1,0 +1,373 @@
+afq_diplo_group = {
+		slot = 2
+		generic = no
+		ai = yes
+		potential = {
+			tag = AFQ
+			NOT = { map_setup = map_setup_random }
+		}
+		has_country_shield = yes
+		
+		afq_contact_tribes = {
+		icon = native_royal_marriage
+		position = 1
+		required_missions = {  }
+		trigger = {
+			if = {
+				limit = {
+					exists = KRQ
+				}
+				OR = {
+				reverse_has_opinion = {
+					who = KRQ
+					value = 150
+					}
+				reverse_has_opinion = {
+					who = AXK
+					value = 150
+					}
+				}
+			}
+		}
+			effect = {
+			add_dip_power = 50
+			add_manpower = 6
+			add_treasury = 50
+		}
+	}
+	afq_bigger = {
+		icon = mission_ne_longhouses
+		position = 3
+		required_missions = { afq_contact_tribes }
+		trigger = { 
+			grown_by_development = 25
+			legitimacy = 90
+		}
+		effect = {
+			add_casus_belli = {
+					type = cb_vassalize_mission
+					target = KRQ
+					months = 120
+				}
+			add_casus_belli = {
+					type = cb_vassalize_mission
+					target = AXK
+					months = 120
+				}
+			}
+		}
+		afq_vassal = {
+		icon = mission_ne_agriculture
+		position = 4
+		required_missions = { afq_bigger }
+		trigger = { 
+		AND = {
+			KRQ = {
+			vassal_of = ROOT
+			}
+			AXK = {
+			vassal_of = ROOT
+			}
+		}
+		}
+		effect = {
+			inherit = KRQ
+			inherit = AXK
+			add_prestige = 15
+			161 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			lands_end = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			}
+		}
+		afq_southern_islands = {
+		icon = mission_invade_island
+		required_missions = { }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = kupreanof_area
+				area = north_ugak_bay_area
+				area = south_ugak_bay_area
+				area = nuniaq_area
+				area = spirodonsk_area
+				area = karluk_area
+				area = afognak_island_area
+				area = south_crossing_area
+				area = knifehead_area
+				area = kodiak_peninsula_area
+					}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			north_ugak_bay_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			kupreanof_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			south_ugak_bay_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			nuniaq_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			spirodonsk_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			karluk_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			afognak_island_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			south_crossing_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			knifehead_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			kodiak_peninsula_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				}
+		effect = {
+			southern_kodiak_isles_area = {
+				create_colony_mission_reward_province = {
+					country = ROOT
+			}	
+		}
+		add_treasury = -100
+	}
+	}
+}
+
+afq_ser_danube = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = AFQ
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	afq_prepare_fight = {
+		icon = mission_native_build_army_mission
+		required_missions = { afq_infiltrate_kadyak afq_contact_tribes }
+		position = 2
+		
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "afq_cross_strait"
+				duration = 3650
+			}
+			kodiak_peninsula_area = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+				}
+			72 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	afq_crush_kadyak = {
+		icon = mission_humiliate_lubeck
+		required_missions = { afq_prepare_fight }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 73
+				province_id = 72
+				area = kodiak_peninsula_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { controller = { OR = { tag = ROOT alliance_with = ROOT is_subject_of = ROOT } } }
+				}
+		trigger = {
+			kodiak_peninsula_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			72 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			73 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			ROOT = {
+							country_event = {
+								id = flavor_afq.1
+								days = 30
+							}
+				}
+		}
+	}
+}
+
+afq_ser_infiltrate = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = AFQ
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+		afq_infiltrate_kadyak = {
+		icon = despot_stefans_legacy
+		required_missions = { }
+		position = 1
+		
+		trigger = {	
+			OR =	{
+					has_spy_network_in = {
+						who = KDY
+						value = 30
+							}
+					has_spy_network_in = {
+						who = TSB
+						value = 30
+							}
+					}
+				}
+		effect = {
+		add_country_modifier = {
+						name = "afq_tech_steal"
+						duration = 1825
+						}
+			if = {
+				limit = {
+					NOT = { has_institution = feudalism }
+				}
+				capital_scope = {
+					add_institution_embracement = {
+						which = feudalism
+						value = 100
+					}
+				}
+			}
+			}
+	}
+	afq_dominate_island = {
+		icon = mission_expand_into_the_forest
+		required_missions = { }
+		position = 3
+		provinces_to_highlight = {
+					province_id = 73
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns_core_province = 73
+			OR= {
+				stability = 2
+				adm_tech = 7
+				}
+		}
+		effect = {
+			add_country_modifier = {
+					name = kdy_settle_island
+					duration = 18250
+			}
+		}
+	}
+	afq_expand_frontier = {
+		icon = mission_rb_colonise_canada
+		required_missions = { afq_crush_kadyak }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = kupreanof_area
+				area = north_ugak_bay_area
+					}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+				kupreanof_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				north_ugak_bay_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				
+				}
+		effect = {
+			nuniaq_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	afq_three_saints = {
+		icon = mission_unite_home_region
+		required_missions = { afq_expand_frontier }
+		position = 5
+		provinces_to_highlight = {
+			area = nuniaq_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+				nuniaq_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				}
+		effect = {
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+				}
+			add_prestige = 20
+			}
+		}
+
+	}
+}
+		

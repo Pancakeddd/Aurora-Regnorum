@@ -1,0 +1,18 @@
+Afognaq
+
+owner = AFQ
+controller = AFQ
+add_core = AFQ
+culture = alutiiq
+religion = ae_shamanism
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = fur
+base_manpower = 3
+capital = "Afognaq"
+is_city = yes
+center_of_trade = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

@@ -1,0 +1,31 @@
+# Delvashi
+
+graphical_culture = northamericagfx
+
+color = { 61 74 118 }
+revolutionary_colors = { 61 74 118 }
+
+preferred_religion = totemism
+
+historical_idea_groups = {
+	aristocracy_ideas
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+}
+
+historical_units = {
+}
+
+monarch_names = {
+}
+
+leader_names = {
+}
+
+ship_names = {
+}

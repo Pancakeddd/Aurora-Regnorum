@@ -1,0 +1,191 @@
+##################################################################################################
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+#Generic Military Mission Rewards:
+
+thriving_arms_industry = {
+	land_morale = 0.05
+	land_maintenance_modifier = -0.05
+}
+
+growth_of_capital = {
+	local_development_cost = -0.1
+	local_build_cost = -0.1
+}
+
+expansionist_country = {
+	harsh_treatment_cost = -0.33
+	state_maintenance_modifier = -0.25
+}
+
+army_enthusiasm = {
+	manpower_recovery_speed = 0.1
+	army_tradition = 0.5
+}
+
+hegemonic_ambition = {
+	global_autonomy = -0.05
+}
+
+#Generic Diplomatic Mission Rewards:
+
+influential_diplomacy = {
+	diplomatic_reputation = 1
+}
+
+obedient_subjects = {
+	diplomatic_annexation_cost = -0.15
+}
+
+naval_enthusiasm_mission = {
+	naval_morale = 0.1
+	navy_tradition = 1
+	global_sailors_modifier = 0.20
+}
+
+dominant_trade_hub = {
+	province_trade_power_value = 10
+	local_development_cost = -0.05
+	picture = "province_trade_power_value"
+}
+
+#Generic Administrative Mission Rewards:
+
+growing_economy = {
+	build_cost = -0.10
+	build_time = -0.25
+}
+
+building_spree = {
+	global_tax_income = 10
+}
+
+strong_treasury = {
+	inflation_reduction = 0.1
+}
+
+proto_industrialization = {
+	production_efficiency = 0.1
+}
+
+imperial_ambition = {
+	years_of_nationalism = -5
+}
+
+#Kadyak rewards:
+
+kdy_settle_island = {
+	may_establish_frontier = yes
+	auto_explore_adjacent_to_colony = yes
+}
+	
+kdy_growing_fishing_industry = {
+	trade_goods_size_modifier = 0.2
+}
+
+kdy_cross_strait = {
+	land_morale = 0.1
+	manpower_recovery_speed = 0.1
+}
+
+afq_tech_steal = {
+	mil_tech_cost_modifier = -0.4
+	mil_advisor_cost = -0.4
+	institution_growth = 0.5
+}
+
+afq_cross_strait = {
+	shock_damage = 0.10
+	manpower_recovery_speed = 0.1
+}
+
+tsb_embargo_slavers = {
+	global_trade_power = -0.05
+	prestige_decay = -0.02
+}
+
+tsb_give_resources = {
+	global_trade_goods_size_modifier = -0.1
+}
+
+indigenous_fishing_lessons = {
+	global_trade_goods_size_modifier = 0.1
+}
+
+booming_kenai_port = {
+	local_development_cost = -0.1
+	local_build_cost = -0.25
+	trade_goods_size = 0.5
+}
+
+alutiiq_preference = {
+	manpower_in_own_culture_provinces = 0.15
+	culture_conversion_cost = -0.25
+}
+
+afq_kadyak_acceptance = {
+	idea_cost = -0.1
+	num_accepted_cultures = 1
+}
+
+kordovaan_colonial_boom = {
+	colonists = 1
+	global_colonial_growth = 50
+}
+
+nantiinaq_fear = {
+	local_development_cost = 0.2
+	trade_value_modifier = -0.1
+}
+
+nantiinaq_terror = {
+		local_unrest = 2
+}
+
+killers_of_nantiinaq = {
+	land_morale = 0.1
+}
+
+alutiiqs_unite = {
+	manpower_recovery_speed = 0.15
+	war_exhaustion = -0.30
+	land_forcelimit_modifier = 1
+}
+
+tlingit_moiety_marriage_yay = {
+	diplomatic_upkeep = 1
+	stability_cost_modifier = -0.3
+}
+
+tlingit_slavery_sad = {
+	liberty_desire = 10
+	global_manpower_modifier = 0.2
+}
+
+tlingit_isolation_modifier = {
+	global_unrest = -1
+	development_cost_modifier = -0.05
+}
+
+defending_susitna = {
+	land_morale = 0.10
+}
+
+dene_safehaven = {
+	allowed_num_of_buildings = 1
+	trade_goods_size_modifier = 0.25
+	local_development_cost = -0.05
+}
+
+ortho_powerful_bishops = {
+	church_loyalty_modifier = 0.1
+	reform_progress_growth = 0.15
+	manpower_in_true_faith_provinces= 0.15
+}
+
+otter_industry = {
+	trade_goods_size = 0.5
+	local_unrest = 1
+}

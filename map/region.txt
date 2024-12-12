@@ -1,0 +1,162 @@
+# A province can only belong to one region!
+
+# random_new_world_region is used for RNW. Must be first in this list.
+random_new_world_region = {
+}
+
+########################################
+# EUROPE                               #
+########################################
+
+western_islands_region = {
+	areas = {
+		saint_lawrence_island_area
+	}
+}
+
+kodiak_region = {
+	areas = {
+		afognak_island_area
+		north_ugak_bay_area
+		south_ugak_bay_area
+		southern_kodiak_isles_area
+		nuniaq_area
+		kupreanof_area
+		spirodonsk_area
+		karluk_area
+		south_crossing_area
+		knifehead_area
+		kodiak_peninsula_area
+	}
+}
+
+kenai_region = {
+	areas = {
+		sunrise_coast
+		glacier_valley
+		skilak_lake
+		kenai_marsh
+		kenai_area
+		tustamena
+		kachemak_point
+		lands_end
+	}
+}
+
+prince_william_sound_region = {
+	areas = {
+	prince_william_islands_area
+	valdez_fjords_area
+	cordova_area
+	whittier_fjords
+	}
+}
+
+susitna_region = {
+	areas = {
+	willow_area
+	susitna_area
+	tyonek_area
+	kustatan_area
+	chigmit_area
+	yentna_area
+	cantwell_area
+	skwentna_area
+	talkeetna_area
+	}
+}
+
+matanuska_region = {
+	areas = {
+	west_knik_area
+	lower_matanuska_area
+	upper_matanuska_area
+	anchorage_proper
+	alyeska
+	}
+}
+
+glennallen_region = {
+	areas = {
+	high_nelchina_area
+	low_nelchina_area
+	}
+}
+
+south_panhandle_region = {
+	areas = {
+	south_pow_area
+	central_pow_area
+	north_pow_area
+	revi_area
+	ketchikan_area
+	kuiu_area
+	west_kup_island_area
+	east_kup_island_area
+	etolin_wrangell_area
+	}
+}
+
+north_panhandle_region = {
+	areas = {
+	south_baranof_area
+	north_baranof_area
+	east_chichagof_area
+	pelican_area
+	hoonah_island_area
+	south_admiral_area
+	north_admiral_area
+	east_admiral_area
+	gustavus_area
+	upper_chilkat_area
+	haines_area
+	juneau_area
+	}
+}
+
+yakutat_coast_region = {
+	areas = {
+	fairweather_area
+	yakutat_area
+	katalla_area
+	}
+}
+
+#sea
+
+kodiak_sea_region = {
+	areas = {
+	shelikof_strait_sea_area
+	kodiak_sea_area
+	}
+}
+
+kenai_sea_region = {
+	areas = {
+	pws_sea_area
+	open_kenai_sea_area
+	cook_inlet_sea_area
+	}
+}
+
+panhandle_sea_region = {
+	areas = {
+	yakutat_baranof_sea_area
+	prince_wales_sea_area
+	panhandle_straits_sea_area
+	}
+}
+
+lawrence_sea_region = {
+	areas = {
+	lawrence_sea_area
+	bristol_bay_sea_area
+	}
+}
+
+aleutian_sea_region = {
+	areas = {
+	upper_aleutian_sea_area
+	lower_aleutian_sea_area
+	}
+}

@@ -1,0 +1,17 @@
+owner = JKY
+controller = JKY
+add_core = JKY
+add_core = CNS
+culture = denaina
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+trade_goods = grain
+capital = "Basher"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

@@ -1,0 +1,12 @@
+culture = sitkan
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Talik"
+native_size = 9
+native_ferocity = 5
+native_hostileness = 6
+discovered_by = north_american

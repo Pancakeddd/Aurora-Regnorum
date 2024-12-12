@@ -1,0 +1,16 @@
+# Rolling Point
+
+culture = alutiiq
+religion = ae_shamanism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = furs
+base_manpower = 1
+capital = "Camp Nangi"
+native_size = 26
+native_ferocity = 4
+native_hostileness = 6
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

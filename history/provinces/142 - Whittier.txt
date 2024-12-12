@@ -1,0 +1,17 @@
+owner = KAG
+controller = KAG
+add_core = KAG
+culture = tallinast
+religion = catholic
+hre = no
+base_tax = 3 
+base_production = 3
+trade_goods = gold
+base_manpower = 3
+capital = "Whittier"
+is_city = yes
+center_of_trade = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

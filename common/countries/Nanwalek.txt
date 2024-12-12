@@ -1,0 +1,34 @@
+# Nanwalek
+
+graphical_culture = inuitgfx
+
+color = { 254 252 173 }
+revolutionary_colors = { 254 252 173 }
+
+historical_score = 5
+
+preferred_religion = ae_shamanism
+
+historical_idea_groups = {
+	aristocracy_ideas
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+}
+
+historical_units = {
+}
+
+monarch_names = {
+}
+
+leader_names = {
+}
+
+ship_names = {
+	trebaleat
+}

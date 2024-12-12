@@ -1,0 +1,16 @@
+owner = KKS
+controller = KKS
+add_core = KKS
+culture = sitkan
+religion = totemism
+hre = no
+base_tax = 4 
+base_production = 4
+trade_goods = unknown
+base_manpower = 4
+capital = "Sitka"
+center_of_trade = 2
+native_size = 34
+native_ferocity = 5
+native_hostileness = 6
+discovered_by = north_american

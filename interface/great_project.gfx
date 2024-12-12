@@ -1,0 +1,29 @@
+spriteTypes = {
+
+		spriteType = {
+		name = "GFX_great_project_place_holder"	
+		texturefile = "gfx//interface//great_projects//great_project_place_holder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_fort_puyurniq"	
+		texturefile = "gfx//interface//great_projects//great_project_fort_puyurniq.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_kenai_longhouse"	
+		texturefile = "gfx//interface//great_projects//great_project_kenai_longhouse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_redoubt"	
+		texturefile = "gfx//interface//great_projects//great_project_redoubt.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_holy_kodiak"	
+		texturefile = "gfx//interface//great_projects//great_project_holy_kodiak.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_mount_susitna"	
+		texturefile = "gfx//interface//great_projects//great_project_mount_susitna.dds"
+	}

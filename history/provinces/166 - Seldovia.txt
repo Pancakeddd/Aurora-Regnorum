@@ -1,0 +1,15 @@
+owner = NNW
+controller = NNW
+add_core = NNW
+culture = alutiiq
+religion = ae_shamanism
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Seldovia"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

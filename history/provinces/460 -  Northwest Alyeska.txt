@@ -1,0 +1,15 @@
+owner = EKL
+controller = EKL
+add_core = EKL
+culture = denaina
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Vuoristokyla"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = kenbm_title
+	desc = kenbm_desc
+	date = 1444.11.11
+	
+	center = 156
+	default = yes
+	
+	country = VLZ
+	country = KTZ
+	country = QTK	
+	country = JKY	
+	country = KAG	
+	country = KRH	
+	country = NNW	
+	
+	easy_country = VLZ
+	easy_country = KAG
+	easy_country = JKY
+}

@@ -1,0 +1,17 @@
+owner = MTK
+controller = MTK
+add_core = MTK
+add_core = CNS
+culture = suomi
+religion = catholic
+hre = no
+base_tax = 4 
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Rabbit Creek"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

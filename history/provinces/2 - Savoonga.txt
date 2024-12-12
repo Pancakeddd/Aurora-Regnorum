@@ -1,0 +1,14 @@
+culture = siberian_yupik
+religion = ae_shamanism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+capital = "Savoonga"
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern

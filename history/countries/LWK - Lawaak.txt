@@ -1,0 +1,17 @@
+government = native
+add_government_reform = tlingit_chiefdom_reform
+government_rank = 1
+primary_culture = klowackan
+religion = totemism
+technology_group = north_american
+capital = 338	# Near Klowock
+
+1444.11.11 = {
+	monarch = {
+		name = "Kuyeidí"
+		dynasty = "Yéil Naa"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}

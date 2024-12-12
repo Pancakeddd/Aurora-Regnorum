@@ -1,0 +1,17 @@
+owner = KPR
+controller = KPR
+add_core = KPR
+culture = kipriyak
+religion = orthodox
+hre = no
+base_tax = 3 
+base_production = 4
+trade_goods = fish
+base_manpower = 3
+center_of_trade = 1
+capital = "Kustatan"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

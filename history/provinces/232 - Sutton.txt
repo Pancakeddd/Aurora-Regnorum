@@ -1,0 +1,13 @@
+culture = ahtna
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Sutton Alpine"
+native_size = 5
+native_ferocity = 4
+native_hostileness = 3
+discovered_by = north_american
+discovered_by = western

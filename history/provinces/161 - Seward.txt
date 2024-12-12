@@ -1,0 +1,17 @@
+owner = RZK
+controller = RZK
+add_core = RZK
+add_core = QTK
+culture = karsavast
+religion = catholic
+hre = no
+base_tax = 3 
+base_production = 4
+trade_goods = fish
+base_manpower = 4
+capital = "Seward"
+is_city = yes
+center_of_trade = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

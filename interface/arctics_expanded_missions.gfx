@@ -1,0 +1,123 @@
+spriteTypes = {
+#### Mission Icons ####
+	spriteType = {
+		name = "mission_shaman"
+		texturefile = "gfx//interface//missions//mission_shaman.dds"
+	}
+    spriteType = {
+		name = "mission_jomon"
+		texturefile = "gfx//interface//missions//mission_jomon.dds"
+	}
+    spriteType = {
+		name = "mission_emishi_people"
+		texturefile = "gfx//interface//missions//mission_emishi_people.dds"
+	}
+    spriteType = {
+		name = "mission_hayato_people"
+		texturefile = "gfx//interface//missions//mission_hayato_people.dds"
+	}
+    spriteType = {
+		name = "mission_arctic_army"
+		texturefile = "gfx//interface//missions//mission_arctic_army.dds"
+	}
+    spriteType = {
+		name = "mission_arctic_dialog"
+		texturefile = "gfx//interface//missions//mission_arctic_dialog.dds"
+	}
+    spriteType = {
+		name = "mission_arctic_house_1"
+		texturefile = "gfx//interface//missions//mission_arctic_house_1.dds"
+	}
+    spriteType = {
+		name = "mission_arctic_house_2"
+		texturefile = "gfx//interface//missions//mission_arctic_house_2.dds"
+	}
+    spriteType = {
+		name = "mission_arctic_monument"
+		texturefile = "gfx//interface//missions//mission_arctic_monument.dds"
+	}
+    spriteType = {
+		name = "mission_shaman_ceremony"
+		texturefile = "gfx//interface//missions//mission_shaman_ceremony.dds"
+	}
+    spriteType = {
+		name = "mission_shaman_praying"
+		texturefile = "gfx//interface//missions//mission_shaman_praying.dds"
+	}
+    spriteType = {
+		name = "mission_whale_jumping"
+		texturefile = "gfx//interface//missions//mission_whale_jumping.dds"
+	}
+    spriteType = {
+		name = "mission_arctic_village"
+		texturefile = "gfx//interface//missions//mission_arctic_village.dds"
+	}
+    spriteType = {
+		name = "mission_tundra"
+		texturefile = "gfx//interface//missions//mission_tundra.dds"
+	}
+    spriteType = {
+		name = "mission_frozen_sea"
+		texturefile = "gfx//interface//missions//mission_frozen_sea.dds"
+	}
+    spriteType = {
+		name = "mission_bering_strait"
+		texturefile = "gfx//interface//missions//mission_bering_strait.dds"
+	}
+    spriteType = {
+		name = "mission_snow_fox"
+		texturefile = "gfx//interface//missions//mission_snow_fox.dds"
+	}
+    spriteType = {
+		name = "mission_kayak_1"
+		texturefile = "gfx//interface//missions//mission_kayak_1.dds"
+	}
+    spriteType = {
+		name = "mission_kayak_2"
+		texturefile = "gfx//interface//missions//mission_kayak_2.dds"
+	}
+    spriteType = {
+		name = "mission_native_celebration"
+		texturefile = "gfx//interface//missions//mission_native_celebration.dds"
+	}
+    spriteType = {
+		name = "mission_dogs_running"
+		texturefile = "gfx//interface//missions//mission_dogs_running.dds"
+	}
+    spriteType = {
+		name = "mission_chukchi"
+		texturefile = "gfx//interface//missions//mission_chukchi.dds"
+	}
+    spriteType = {
+		name = "mission_fur_coats"
+		texturefile = "gfx//interface//missions//mission_fur_coats.dds"
+	}
+    spriteType = {
+		name = "mission_killer_whale"
+		texturefile = "gfx//interface//missions//mission_killer_whale.dds"
+	}
+    spriteType = {
+		name = "mission_bears_fighting"
+		texturefile = "gfx//interface//missions//mission_bears_fighting.dds"
+	}
+    spriteType = {
+		name = "mission_reindeer_rider"
+		texturefile = "gfx//interface//missions//mission_reindeer_rider.dds"
+	}
+    spriteType = {
+		name = "mission_bear_roaring"
+		texturefile = "gfx//interface//missions//mission_bear_roaring.dds"
+	}
+    spriteType = {
+		name = "mission_reindeer_herd"
+		texturefile = "gfx//interface//missions//mission_reindeer_herd.dds"
+	}
+    spriteType = {
+		name = "mission_sea_lion"
+		texturefile = "gfx//interface//missions//mission_sea_lion.dds"
+	}
+    spriteType = {
+		name = "mission_tlingit"
+		texturefile = "gfx//interface//missions//mission_tlingit.dds"
+	}
+}

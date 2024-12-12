@@ -1,0 +1,11 @@
+owner = KTL
+controller = KTL
+add_core = KTL
+culture = eyak
+religion = totemism
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = unknown
+base_manpower = 2
+capital = "Katalla"

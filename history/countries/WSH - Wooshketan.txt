@@ -1,0 +1,17 @@
+government = native
+add_government_reform = tlingit_chiefdom_reform
+government_rank = 1
+primary_culture = sitkan
+religion = totemism
+technology_group = north_american
+capital = 392	# Hoonah
+
+1444.11.11 = {
+	monarch = {
+		name = "Took'axaaw"
+		dynasty = "Ch'aak Naa"
+		adm = 1
+		dip = 5
+		mil = 1
+	}
+}

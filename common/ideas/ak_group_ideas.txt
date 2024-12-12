@@ -1,0 +1,216 @@
+denaina_ideas = {
+	start = {
+		land_morale = 0.10
+		heir_chance = 0.5
+	}
+	
+	bonus = {
+		army_tradition_decay = -0.02
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = denaina	
+			primary_culture = ahtna
+			
+		}
+	}
+	free = yes
+	
+	raid_warfare_dn = {
+		infantry_shock = 0.5
+		rival_change_cost = -0.2
+	}
+	brother_salmon_dn = {
+		tolerance_own = 1
+	}
+	potlatch_dn = {
+		improve_relation_modifier = 0.2
+		global_unrest = -2
+	}
+	mother_and_father_dn = {
+		advisor_pool = 1
+		female_advisor_chance = 0.1
+	}
+	totem_poles_dn = {
+		prestige_decay = -0.01
+		stability_cost_modifier = -0.1
+	}
+	canoe_people_dn = {
+		leader_land_manuever = 1
+	}
+	division_as_a_strength_dn = {
+		num_accepted_cultures = 1
+		promote_culture_cost = -0.25
+	}
+}
+
+IIQ_ideas = {
+    start = {
+        trade_efficiency = 0.15
+        global_foreign_trade_power = 0.1
+    }
+    bonus = {
+	    idea_cost = -0.1
+    }
+    
+    trigger = {
+		OR = {
+			tag = AXK
+			tag = KRQ
+			tag = QTK
+			tag = NNW
+			tag = SNQ
+		}
+    }
+    
+    free = yes
+    
+    IIQ_harpoon_warfare = {
+        morale_damage = 0.05
+    }
+    IIQ_peace_in_isolation = {
+        development_cost = -0.10
+    }
+    IIQ_three_saints_bay = {
+        global_prov_trade_power_modifier = 0.1
+    }
+    IIQ_labyrinthine_waters = {
+        naval_morale = 0.10
+    }
+    IIQ_smoke_traditions = {
+        fire_damage_received = -0.10
+    }
+    IIQ_pre_colonial_bliss = {
+        global_prosperity_growth = 0.05
+    }
+    IIQ_alutiiq_craftsmanship = {
+        production_efficiency = 0.15
+    }
+}
+
+suomast_ideas = {
+	start = {
+		discipline = 0.05
+		global_tax_modifier = 0.10
+	}
+	
+	bonus = {
+		army_tradition = 1
+	}
+	
+	trigger = {
+		primary_culture = suomi
+	}
+	free = yes
+	
+	borders_of_the_kingdom = {
+		papal_influence = 1
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.1
+		global_missionary_strength = 0.01
+	}
+	hakkapelitta_som = {
+ 		cavalry_power = 0.15
+	}	
+	the_fourth_estate_som = {
+		production_efficiency = 0.1
+	}
+	matanuska_valley_som = {
+		build_cost = -0.1
+		development_cost = -0.1
+	}
+	som_push_north = {
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
+	}
+	used_to_winter_som = {
+		land_attrition = -0.20
+	}
+	sword_of_catholics_som = {
+		years_of_nationalism = -5
+		manpower_in_true_faith_provinces= 0.10
+	}
+}
+
+talkeetna_ideas = {
+	start = {
+		leader_land_manuever = 2
+		add_tribal_land_cost = -0.25
+	}
+	
+	bonus = {
+		morale_damage_received = -0.05
+	}
+	
+	trigger = {
+		culture = talkeetna
+	}
+	free = yes
+	
+	river_of_plenty = {
+ 		global_tax_modifier = 0.10
+	}
+	susitna_council = {
+		advisor_cost = -0.25
+	}	
+	denali_to_river = {
+		movement_speed = 0.10
+	}
+	giant_of_mt_susitna = {
+		global_unrest = -2
+		stability_cost_modifier = -0.15
+	}
+	mother_bear_talkeetna = {
+		global_defender_dice_roll_bonus = 1
+	}
+	dene_comradery = {
+		relation_with_same_culture_group = 25
+	}
+	trust_within_tribal_gov = {
+		reform_progress_growth = 0.1
+	}
+}
+
+tlingit_ideas = {
+	start = {
+		galley_power = 0.15
+		add_tribal_land_cost = -0.25
+	}
+	
+	bonus = {
+		army_tradition = 1
+	}
+	
+	trigger = {
+		culture_group = tlingit_group
+		NOT = { tag = EYK }
+	}
+	free = yes
+	
+	moity_system_tl = {
+		stability_cost_modifier = -0.2
+	}
+	trade_with_south_tl = {
+ 		trade_efficiency = 0.1
+	}
+	haida_relations_tl = {
+		diplomatic_reputation = 1
+		rival_change_cost = -0.33
+	}	
+	eye_for_eye_tl = {
+		global_unrest = -2
+	}
+	fort_builders_tl = {
+		fort_maintenance_modifier = -0.25
+		may_refill_garrison = yes
+	}
+	tlingit_tactics_tl = {
+		fire_damage_received = -0.10
+	}
+	subjugation_tl = {
+		vassal_forcelimit_bonus = 0.25
+		liberty_desire_from_subject_development = -0.25
+	}
+}
+

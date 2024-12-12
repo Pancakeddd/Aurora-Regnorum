@@ -1,0 +1,18 @@
+owner = KDY
+add_core = KDY
+controller = KDY
+culture = alutiiq
+religion = orthodox
+
+hre = no
+
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+capital = "Port Lions"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

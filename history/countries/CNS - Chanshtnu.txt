@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_kenai
+government_rank = 1
+primary_culture = denaina
+religion = totemism
+technology_group = north_american
+capital = 133	# Anchorage

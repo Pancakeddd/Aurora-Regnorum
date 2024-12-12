@@ -1,0 +1,20 @@
+owner = KDY
+controller = KDY
+add_core = KDY
+add_core = SNQ
+culture = kadyak
+religion = orthodox
+
+hre = no
+
+base_tax = 3 
+base_production = 4
+base_manpower = 3
+
+trade_goods = paper
+capital = "Kodiak"
+is_city = yes
+center_of_trade = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

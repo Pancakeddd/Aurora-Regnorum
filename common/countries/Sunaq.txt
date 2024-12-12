@@ -1,0 +1,32 @@
+# Sunaq
+
+graphical_culture = inuitgfx
+
+color = { 52 106 233 }
+revolutionary_colors = { 52 106 233 }
+
+preferred_religion = ae_shamanism
+
+historical_idea_groups = {
+	aristocracy_ideas
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+}
+
+historical_units = {
+}
+
+monarch_names = {
+}
+
+leader_names = {
+}
+
+ship_names = {
+	trebaleat
+}

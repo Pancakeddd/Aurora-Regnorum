@@ -1,0 +1,22 @@
+owner = KAG
+controller = KAG
+add_core = KAG
+culture = tallinast
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Esteria"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+
+1444.1.1 = {
+	add_permanent_province_modifier = {
+		name = "prince_william_fisheries"
+		duration = -1
+	}
+}

@@ -1,0 +1,13 @@
+owner = YTT
+controller = YTT
+add_core = YTT
+culture = yakutan
+religion = totemism
+hre = no
+base_tax = 3 
+base_production = 4
+trade_goods = unknown
+base_manpower = 2
+capital = "Yakutat"
+center_of_trade = 1
+discovered_by = north_american

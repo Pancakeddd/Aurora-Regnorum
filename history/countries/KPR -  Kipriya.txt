@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = kipriyak_fuedalism
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = kipriyak
+capital = 239	# Kustatan
+
+1444.11.11 = {
+	monarch = {
+		name = "Ivan"
+		dynasty = "Brazhnikov"
+		adm = 1
+		dip = 5
+		mil = 5
+	}
+}
+

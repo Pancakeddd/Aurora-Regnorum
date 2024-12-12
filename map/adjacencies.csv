@@ -1,0 +1,68 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+47;48;sea;105;-1;-1;-1;-1;Shuyak-Paramanof
+50;73;sea;107;-1;-1;-1;-1;Puyurniq-Kapreanof
+51;54;sea;92;-1;-1;-1;-1;Kodiak-Uzinki
+53;73;sea;106;-1;-1;-1;-1;Uganik-Kapreanof
+53;75;sea;106;-1;-1;-1;-1;Ugani-Port Obrien
+87;88;sea;102;-1;-1;-1;-1;Uksumi-Quyarlluku
+60;52;sea;100;-1;-1;-1;-1;Old Harbor-Sitkaladak
+56;55;sea;102;-1;-1;-1;-1;Tugidak-Sitkanak
+174;167;sea;188;-1;-1;-1;-1;Homer-Halibut
+146;139;sea;181;-1;-1;-1;-1;Alyeska-Sunrise
+152;153;sea;199;-1;-1;-1;-1;Culross-Elshamy
+152;210;sea;219;-1;-1;-1;-1;Culross-Esteria
+215;214;sea;201;-1;-1;-1;-1;Tatitlek-Gravina
+216;217;sea;203;-1;-1;-1;-1;Cordova-Hawkins
+217;218;sea;202;-1;-1;-1;-1;Hawkins-Hitchenbrook
+153;179;sea;198;-1;-1;-1;-1;Elshamy-Knight
+179;178;sea;198;-1;-1;-1;-1;Knight-Chenega
+178;115;sea;197;-1;-1;-1;-1;Chenega-Montague
+224;133;sea;180;-1;-1;-1;-1;Makkensa-Anchorage
+151;239;sea;184;-1;-1;-1;-1;Kustatan-Kenai
+115;218;sea;200;-1;-1;-1;-1;Sukli-Hinchen
+409;410;sea;204;-1;-1;-1;-1;Alaganik
+412;411;sea;204;-1;-1;-1;-1;Kayak
+414;415;sea;288;-1;-1;-1;-1;Icy Bay
+416;417;sea;289;-1;-1;-1;-1;Yakutat Bay
+419;420;sea;290;-1;-1;-1;-1;Alsek Coast
+423;384;sea;292;-1;-1;-1;-1;Cross Sound Main to Baranof
+423;432;sea;292;-1;-1;-1;-1;Cross Sound Main to Gustavus
+392;385;sea;312;-1;-1;-1;-1;NHoonah-Baranof
+385;391;sea;312;-1;-1;-1;-1;SHoonah-Baranof
+385;391;sea;312;-1;-1;-1;-1;SHoonah-Baranof
+389;391;sea;312;-1;-1;-1;-1;SHoonah-Baranof alt
+386;377;sea;311;-1;-1;-1;-1;Sitkoh-RestofBaranof
+394;373;sea;309;-1;-1;-1;-1;SBaranof-Admiral
+376;395;sea;311;-1;-1;-1;-1;NBaranof-Admiral
+357;373;sea;308;-1;-1;-1;-1;Baranof-Kuiu
+398;405;sea;310;-1;-1;-1;-1;Admiral-Admiralpeninsula
+403;408;sea;315;-1;-1;-1;-1;Admiral-Douglas
+408;453;sea;315;-1;-1;-1;-1;Juneau-Douglas
+408;454;sea;315;-1;-1;-1;-1;Menendahl-Douglas
+396;362;sea;309;-1;-1;-1;-1;Admiral-Kake
+360;364;sea;304;-1;-1;-1;-1;Kakeinternal
+357;358;sea;304;-1;-1;-1;-1;Kuiu-Duklax
+357;358;sea;307;-1;-1;-1;-1;Kuiu-Duklax
+359;344;sea;304;-1;-1;-1;-1;Kake-Wales
+344;356;sea;307;-1;-1;-1;-1;Kuiu-Wales
+355;356;sea;295;-1;-1;-1;-1;Kuiu-Coronation
+355;341;sea;295;-1;-1;-1;-1;Wales-Coronation
+337;341;sea;295;-1;-1;-1;-1;Lawaaak-NWales
+337;331;sea;295;-1;-1;-1;-1;Lawaaak-Lulu
+333;331;sea;295;-1;-1;-1;-1;Wales-Lulu
+333;330;sea;296;-1;-1;-1;-1;Wales-Dall
+330;345;sea;296;-1;-1;-1;-1;SWales-Dall
+364;365;sea;305;-1;-1;-1;-1;Kake-Zarembo
+365;368;sea;305;-1;-1;-1;-1;Kake-Etolin
+367;369;sea;305;-1;-1;-1;-1;SWrangell-Etolin
+367;369;sea;305;-1;-1;-1;-1;SWrangell-Etolin
+368;369;sea;305;-1;-1;-1;-1;SWrangell-NEtolin
+368;369;sea;305;-1;-1;-1;-1;SWrangell-NEtolin
+368;340;sea;303;-1;-1;-1;-1;Wales-Etolin
+336;332;sea;302;-1;-1;-1;-1;Bokan-Kasaan
+332;348;sea;302;-1;-1;-1;-1;Revi-Wales
+349;347;sea;299;-1;-1;-1;-1;Metla-Revi
+346;347;sea;299;-1;-1;-1;-1;Metla-Duke
+388;390;sea;312;-1;-1;-1;-1;SeHoonah,Baranof
+383;422;sea;292;-1;-1;-1;-1;Baranof-Tsalxaan
+-1;-1;;-1;-1;-1;-1;-1;-1;

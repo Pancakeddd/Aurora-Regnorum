@@ -1,0 +1,34 @@
+# Svatosk
+
+graphical_culture = westerngfx
+
+color = { 75 166 162 }
+revolutionary_colors = { 75 166 162 }
+
+historical_score = 25
+
+preferred_religion = orthodox
+
+historical_idea_groups = {
+	aristocracy_ideas
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+}
+
+historical_units = {
+}
+
+monarch_names = {
+}
+
+leader_names = {
+}
+
+ship_names = {
+	
+}

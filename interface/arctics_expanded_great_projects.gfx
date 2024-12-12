@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+        name = "GFX_great_project_whale_bone_alley"	
+        texturefile = "gfx//interface//great_projects//great_project_whale_bone_alley.dds"
+    }
+}

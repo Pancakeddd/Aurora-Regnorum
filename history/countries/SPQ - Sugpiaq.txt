@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = sugpiaq_highkingdom_reform
+government_rank = 1
+technology_group = north_american
+religion = ae_shamanism
+primary_culture = alutiiq
+capital = 49	# Afognak
+
+

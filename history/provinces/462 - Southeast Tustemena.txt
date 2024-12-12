@@ -1,0 +1,15 @@
+owner = DUS
+controller = DUS
+add_core = DUS
+culture = denaina
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = furs
+base_manpower = 1
+capital = "Crowfoot Circle"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

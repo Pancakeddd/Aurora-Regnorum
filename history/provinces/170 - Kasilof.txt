@@ -1,0 +1,16 @@
+owner = KTZ
+controller = KTZ
+add_core = KTZ
+culture = denaina
+religion = totemism
+hre = no
+base_tax = 2 
+base_production = 4
+trade_goods = fish
+base_manpower = 3
+capital = "Kasilof"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

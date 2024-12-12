@@ -1,0 +1,15 @@
+owner = CKL
+controller = CKL
+add_core = CKL
+culture = ahtna
+religion = totemism
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = cotton
+base_manpower = 1
+capital = "Mackenzie"
+native_size = 24
+native_ferocity = 4
+native_hostileness = 3
+discovered_by = north_american

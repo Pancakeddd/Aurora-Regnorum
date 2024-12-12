@@ -1,0 +1,16 @@
+owner = TGG
+controller = TGG
+add_core = TGG
+culture = denaina
+religion = totemism
+hre = no
+base_tax = 3 
+base_production = 5
+trade_goods = naval_supplies
+base_manpower = 3
+capital = "Homer"
+is_city = yes
+center_of_trade = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

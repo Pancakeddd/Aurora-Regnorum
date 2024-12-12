@@ -1,0 +1,12 @@
+culture = lands_end
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Atna"
+native_size = 20
+native_ferocity = 5
+native_hostileness = 4
+discovered_by = north_american

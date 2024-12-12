@@ -1,0 +1,436 @@
+kenai_tribes_finance = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		culture = denaina
+		OR = {
+		tag = NIN
+		tag = DLV
+		tag = KTZ
+		tag = TGG
+		tag = DUS
+		}
+	}
+	has_country_shield = yes
+	
+	kenai_unlock_burghers = {
+		icon = mission_ne_birch_bark_canoes
+		required_missions = { }
+		position = 1
+		trigger = {
+			155 = {
+				has_trader = ROOT
+				trade_share = {
+						country = ROOT
+						share = 15
+					}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = "Completing this mission will unlock the Burghers Estate."
+				define_advisor = {
+					type = trader
+					cost_multiplier = 0.5
+					skill = 1
+					culture = tallinast
+					religion = catholic
+				}
+			set_country_flag = kenai_gained_traders
+		}
+	}
+	
+	kenai_feudalism = { 
+		icon = mission_son_back_to_the_roots
+		required_missions = {  } 
+		position = 2
+		provinces_to_highlight = {
+		}
+		trigger = {
+			OR = {
+			JKY = {
+			has_institution = feudalism
+			alliance_with = ROOT
+			has_opinion = {
+					who = ROOT
+					value = 100
+					}
+			}
+			KAG = {
+			has_institution = feudalism
+			alliance_with = ROOT
+			has_opinion = {
+					who = ROOT
+					value = 100
+					}
+			}
+			KRD = {
+			has_institution = feudalism
+			alliance_with = ROOT
+			has_opinion = {
+					who = ROOT
+					value = 100
+					}
+			}
+			KPR = {
+			has_institution = feudalism
+			alliance_with = ROOT
+			has_opinion = {
+					who = ROOT
+					value = 100
+					}
+			}
+
+			}
+			
+		}
+		effect = { 
+			if = {
+				limit = {
+					NOT = { has_institution = feudalism }
+				}
+				capital_scope = {
+					add_institution_embracement = {
+						which = feudalism
+						value = 100
+					}
+				}
+			}
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		ai_weight = {
+			factor = 100
+		}
+	}
+	
+	kenai_gold_tribal = {
+		icon = mission_che_the_cave_country
+		required_missions = { kenai_feudalism }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 145
+		}
+		
+		trigger = {
+			145 = {
+				owned_by = ROOT
+				num_of_times_improved = 4
+			}
+			has_institution = feudalism
+		}
+		
+		effect = {
+			145 = {
+				limit = {
+					NOT = { trade_goods = gold }
+				}
+				change_trade_goods = gold 
+			}
+			145 = {
+				add_base_production = 2
+			}
+		}
+	}
+	
+}
+
+kenai_conquer = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = KTZ
+	}
+	has_country_shield = yes
+	
+	kenai_get_claims = {
+		icon = mission_che_principal_peole
+		required_missions = { }
+		provinces_to_highlight = {	}
+		position = 1
+		trigger = {
+			army_size_percentage = 0.9
+			OR = {
+			prestige = 25
+			diplomatic_reputation = 2
+			}
+		}
+		
+		effect = {
+			kenai_region = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					
+					}
+					add_permanent_claim = ROOT
+				}
+				}
+	
+		}
+	}
+	
+	kenai_take_ports = {
+		icon = overshadow_venice
+		required_missions = { kenai_get_claims }
+		provinces_to_highlight = { 
+		OR = {
+		province_id = 174 
+		province_id = 161 
+			}
+		NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		position = 2
+		trigger = {
+			owns_or_non_sovereign_subject_of = 174
+			owns_or_non_sovereign_subject_of = 161
+		}
+		
+		effect = {
+			add_mercantilism = 4
+		}
+	}
+	
+	kenai_own_pen = {
+		icon = mission_rb_into_ireland
+		required_missions = { kenai_take_ports }
+		provinces_to_highlight = {
+			region = kenai_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		position = 3
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = kenai_region
+				NOT = { controlled_by = REB }
+				value = 26
+			}
+		}
+		
+		effect = {
+			add_prestige = 30
+		}
+	}
+	
+	
+}
+
+kenaitze_dev = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = KTZ
+	}
+	has_country_shield = yes
+	
+	kenai_expand = {
+		icon = mission_expand_into_the_forest
+		required_missions = { kenai_get_claims kenai_saalinga }
+		provinces_to_highlight = { province_id = 155 }
+		position = 2
+		trigger = {
+			grown_by_development = 40
+			owns_core_province = 155
+		}
+		
+		effect = {
+			155 = {
+				change_culture = ROOT
+			}
+			add_prestige = 25
+	
+		}
+	}
+	
+	kenai_capital = {
+		icon = mission_pol_revival_krakow
+		required_missions = { kenai_expand kenai_own_pen }
+		provinces_to_highlight = { province_id = 155 }
+		position = 4
+		trigger = {
+			treasury = 200
+			owns_core_province = 155
+			155 = {
+			has_building = dock
+			OR = {
+			has_building = marketplace
+			has_building = temple
+			}
+			}
+		}
+		
+		effect = {
+			set_capital = 155
+			155 = {
+				change_province_name = "Kahtnu"
+				rename_capital = "Kahtnuqayeh"
+				add_base_tax = 2
+				add_base_production = 3
+				add_base_manpower = 2
+				add_province_modifier = {
+					name = dene_safehaven
+					duration = -1
+				}
+			}
+			add_treasury = -200
+	
+		}
+	}
+	
+	
+}
+
+kenai_diplodocus = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = KTZ
+	}
+	has_country_shield = yes
+	
+	kenai_saalinga  = {
+		icon = mission_unite_coromandel
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			province_id = 157
+		}
+		trigger = {
+		
+			OR = {
+					truce_with = VLZ
+					NOT = { exists = VLZ }
+					}
+		}
+			
+		
+		effect = {
+			if = {
+			limit = { owns_or_non_sovereign_subject_of = 157 }
+			add_prestige = 20
+			add_stability = 1
+			
+			}
+			else = {
+			add_stability = 1
+			}
+		
+		}
+	}
+	
+}
+
+kenai_tribes_religion = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		culture = denaina
+		OR = {
+		tag = NIN
+		tag = DLV
+		tag = KTZ
+		tag = TGG
+		tag = DUS
+		}
+	}
+	has_country_shield = yes
+	
+	kenai_consult_medicine_men = {
+		icon = mission_hands_praying
+		required_missions = { }
+		position = 1
+		trigger = {
+			dominant_religion = ROOT
+			prestige = 20
+			OR = {
+			stability = 1
+			at_war_with_religious_enemy = yes
+			}
+			}
+		
+		effect = {
+			custom_tooltip = "Completing this mission will unlock the Clergy Estate."
+			set_country_flag = kenai_gained_church
+		
+		}
+	}
+	
+	legend_sleeping_lady = {
+		icon = mission_beyond_the_urals
+		required_missions = { kenai_consult_medicine_men }
+		provinces_to_highlight = {
+			province_id = 245
+		}
+		position = 2
+		trigger = {
+			OR = {
+				245 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				245 = {
+				owner = { 
+					religion = totemism
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			ROOT = {
+				country_event = {
+								id = flavor_kenai.1
+								days = 30
+				}
+			}
+		}
+	}
+	
+	faith_and_future = {
+		icon = standardize_relazioni
+		required_missions = { legend_sleeping_lady }
+		position = 3
+		trigger = {
+			OR = {
+			AND = {
+			religion_group = christian
+			religious_unity = 0.9
+			theologian = 1
+			}
+			AND = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 80
+			}
+			theologian = 1
+			}
+			
+			
+			
+			}
+			
+		}
+		
+		effect = {
+			add_stability = 1
+		}
+	}
+	
+}
+

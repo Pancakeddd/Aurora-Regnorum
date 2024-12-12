@@ -1,0 +1,19 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+primary_culture = alutiiq
+religion = ae_shamanism
+technology_group = north_american
+historical_rival = KDY
+capital = 49	# Afognaq
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Peteruk III"
+		dynasty = "Olsinak"
+		adm = 2
+		dip = 5
+		mil = 6
+	}
+}

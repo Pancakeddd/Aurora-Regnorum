@@ -1,0 +1,17 @@
+owner = JKY
+controller = JKY
+add_core = JKY
+add_core = CNS
+culture = suomi
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 2
+base_manpower = 2
+trade_goods = fur
+capital = "Taku"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim

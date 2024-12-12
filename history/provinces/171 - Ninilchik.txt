@@ -1,0 +1,15 @@
+owner = NIN
+controller = NIN
+add_core = NIN
+culture = denaina
+religion = totemism
+hre = no
+base_tax = 2 
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Ninilchik"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

@@ -1,0 +1,12 @@
+culture = kakan
+religion = totemism
+hre = no
+base_tax = 3 
+base_production = 3
+trade_goods = unknown
+base_manpower = 2
+capital = "Kake"
+native_size = 23
+native_ferocity = 5
+native_hostileness = 5
+discovered_by = north_american

@@ -1,0 +1,15 @@
+owner = WTN
+controller = WTN
+add_core = WTN
+culture = sitkan
+religion = totemism
+hre = no
+base_tax = 1 
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = "Port Alexander"
+native_size = 25
+native_ferocity = 6
+native_hostileness = 6
+discovered_by = north_american

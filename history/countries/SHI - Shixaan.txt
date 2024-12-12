@@ -1,0 +1,17 @@
+government = native
+add_government_reform = tlingit_chiefdom_reform
+government_rank = 1
+primary_culture = klowackan
+religion = totemism
+technology_group = north_american
+capital = 344	# Port Protection
+
+1444.11.11 = {
+	monarch = {
+		name = "Dagis"
+		dynasty = "Ch'aak"
+		adm = 5
+		dip = 2
+		mil = 3
+	}
+}

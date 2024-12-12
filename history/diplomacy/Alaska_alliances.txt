@@ -1,0 +1,50 @@
+#Kenai
+vassal = {
+	first = KTZ
+	second = DLV
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+vassal = {
+	first = KTZ
+	second = NIN
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+vassal = {
+	first = JKY
+	second = MTK
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+#Susitna
+
+dependency = {
+	subject_type = "tributary_state"
+	first = KPR
+	second = BLU
+	start_date = 1444.1.1
+	end_date = 1804.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = KPR
+	second = TQK
+	start_date = 1444.1.1
+	end_date = 1804.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = KPR
+	second = TYK
+	start_date = 1444.1.1
+	end_date = 1804.22
+}
+
+
+

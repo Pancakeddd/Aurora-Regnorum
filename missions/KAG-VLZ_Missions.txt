@@ -1,0 +1,206 @@
+vlzkag_conquest_group = {
+		slot = 3
+		generic = no
+		ai = yes
+		potential = {
+			OR = {
+			tag = KAG
+			tag = VLZ
+			
+			
+				}
+			NOT = { map_setup = map_setup_random }
+		}
+		has_country_shield = yes
+		
+		vlzkag_expand = {
+			icon = spa_spanish_road
+			required_missions = { }
+			position = 1
+			provinces_to_highlight = {
+			OR = {
+				area = tustamena
+				area = kenai_marsh
+				area = skilak_lake
+				area = glacier_valley
+				area = sunrise_coast
+				area = kachemak_point
+				area = lands_end
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+			trigger = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = tustamena
+					area = kenai_marsh
+					area = skilak_lake
+					area = glacier_valley
+					area = sunrise_coast
+					area = kachemak_point
+					area = lands_end
+				}
+				value = 8
+			}
+			}
+			effect = {
+						add_prestige = 20
+						kenai_region = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+				}
+			}
+		}
+	vlzkag_control_trade = {
+		icon = mission_russian_navy
+		required_missions = { vlzkag_homer vlzkag_seward }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				region = kenai_region
+				}
+			}
+		trigger = {
+			155 = {
+				trade_share = {
+					country = ROOT
+					share = 40 
+				}
+			}
+		}
+		effect = {
+		add_mercantilism = 5
+		kachemak_point = {
+			add_prosperity = 75
+			}
+		glacier_valley = {
+			add_prosperity = 75
+			}
+			49 = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+				}
+			51 = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+				}
+		}
+	}
+}
+vlzkag_homer_group = {
+		slot = 2
+		generic = no
+		ai = yes
+		potential = {
+			OR = {
+			tag = KAG
+			tag = VLZ
+			
+			
+				}
+			NOT = { map_setup = map_setup_random }
+		}
+		has_country_shield = yes
+		
+		vlzkag_homer = {
+			icon = mission_cannons_firing
+			required_missions = { vlzkag_expand }
+			position = 2
+			provinces_to_highlight = {
+			AND = {
+					NOT = { owned_by = ROOT }
+					province_id = 174
+				}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			trigger = {
+			owns_core_province = 174
+				}
+			effect = {
+					174 = {
+				add_province_modifier = {
+					name = booming_kenai_port
+					duration = 5475
+					}
+				change_culture = ROOT
+					}
+			}
+		}
+		vlzkag_develop_homer = {
+			icon = explore_caribbean
+			required_missions = { vlzkag_homer }
+			position = 3
+			provinces_to_highlight = {
+					province_id = 174
+				}
+			trigger = {
+					owns = 174
+					174 = {
+					OR = {
+						num_of_times_improved = 5
+						province_has_center_of_trade_of_level = 2
+						}
+					}
+				}
+			effect = {
+					174 = {
+					add_building_construction = {
+							building = wharf
+							speed = 1
+							cost = 0.1
+						}
+			}
+		}
+	
+	}
+}
+
+vlzkag_seward_group = {
+		slot = 4
+		generic = no
+		ai = yes
+		potential = {
+			OR = {
+			tag = KAG
+			tag = VLZ
+			
+			
+				}
+			NOT = { map_setup = map_setup_random }
+		}
+		has_country_shield = yes
+		
+		vlzkag_seward = {
+			icon = mission_cannons_firing
+			required_missions = { vlzkag_expand }
+			position = 2
+			provinces_to_highlight = {
+			AND = {
+					NOT = { owned_by = ROOT }
+					province_id = 161
+				}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			trigger = {
+			owns_or_non_sovereign_subject_of = 161
+				}
+			effect = {
+					161 = {
+				add_province_modifier = {
+					name = booming_kenai_port
+					duration = 5475
+					}
+					}
+			}
+		}
+}

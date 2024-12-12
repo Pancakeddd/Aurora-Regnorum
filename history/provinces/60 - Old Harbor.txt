@@ -1,0 +1,19 @@
+owner = TSB
+controller = TSB
+add_core = TSB
+culture = kadyak
+religion = orthodox
+
+hre = no
+
+base_tax = 3 
+base_production = 2
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Port Gregory"
+is_city = yes
+center_of_trade = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american

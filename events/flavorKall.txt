@@ -1,0 +1,132 @@
+# Pirate events by Daniel Tolman
+
+namespace = kallaga
+
+###### Faction events ######
+
+# Sunken Treasure
+country_event = {
+	id = kallaga.1
+	title = kallaga.1.t
+	picture = FLAGSHIP_SUNK_eventPicture
+	desc = kallaga.1.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { exists = KLG }
+		owns_or_non_sovereign_subject_of = 222
+		is_in_war = {
+			attacker_leader = KTZ
+		}
+		NOT = { war_score = -25 }
+		tag = VLZ
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			222 = {
+				discover_country = KLG
+				add_core = KLG
+			}
+		}
+	}
+	
+	option = {
+		name = kallaga.1.a
+		# play as NSS
+		trigger = {
+			ai = no
+		}
+		222 = {
+			owner = {
+				release = KLG
+			}
+		}
+		KLG = {
+			change_government = republic
+			add_government_reform = pirate_republic_reform
+			adopt_reform_progress = ROOT
+			add_republican_tradition = 50
+			change_religion = ROOT
+			change_primary_culture = denaina
+			discover_provinces = ROOT
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.4
+					light_ship = 0.3
+					transport = 0.3
+				}
+			}
+			define_ruler = {
+				name = "Johanness"
+				dynasty = "Qeydaghetna"
+				culture = denaina
+				religion = catholic
+				adm = 3
+				dip = 4
+				mil = 5
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = pirate_ideas }
+				}
+				swap_free_idea_group = yes
+			}
+			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
+			swap_non_generic_missions = yes
+		}
+		switch_tag = KLG
+		
+	}
+	
+	option = {
+		name = kallaga.1.b
+		222 = {
+			owner = {
+				release = KLG
+			}
+		}
+		KLG = {
+			change_government = republic
+			add_government_reform = pirate_republic_reform
+			adopt_reform_progress = ROOT
+			add_republican_tradition = 50
+			change_religion = ROOT
+			change_primary_culture = denaina
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					artillery = 0.2
+					heavy_ship = 0.3
+					light_ship = 0.3
+					transport = 0.3
+				}
+			}
+			define_ruler = {
+				name = "Johanness"
+				dynasty = "Qeydaghetna"
+				culture = denaina
+				religion = catholic
+				adm = 3
+				dip = 4
+				mil = 5
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = pirate_ideas }
+				}
+				swap_free_idea_group = yes
+			}
+			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
+			swap_non_generic_missions = yes
+		}
+	}
+}
+	

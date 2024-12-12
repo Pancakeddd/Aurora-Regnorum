@@ -1,0 +1,22 @@
+culture = eyak
+religion = totemism
+capital = "Hinchen"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 1
+native_ferocity = 1
+native_hostileness = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+discovered_by = muslim
+
+1444.1.1 = {
+	add_permanent_province_modifier = {
+		name = "prince_william_fisheries"
+		duration = -1
+	}
+}

@@ -1,0 +1,147 @@
+#########################################
+# Events for the AFQ
+#
+# scripted by SeagullSox
+# Localization written by SeagullSox
+#########################################
+
+namespace = flavor_afq
+normal_or_historical_nations = yes
+	
+country_event = {
+	id = flavor_afq.1 #kadyak policy
+	title = flavor_afq.1.t
+	desc = flavor_afq.1.d
+	picture = BIG_BOOK_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		NOT = {
+			exists = KDY
+			has_country_flag = took_kodiak
+		}
+		51 = {
+			owned_by = ROOT
+		ROOT = {
+			culture = alutiiq
+		}
+		}
+		dip_power = 50
+		adm_power = 30
+		prestige = 10
+		dip = 4
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	immediate = {
+		set_country_flag = took_kodiak
+	}
+	
+	option = {
+		name = flavor_afq.1.a
+		add_country_modifier = {
+			name = "alutiiq_preference"
+			duration = -1
+		}
+		51 = {
+			change_culture = ROOT
+		}
+		add_adm_power = -30
+	}
+	option = {
+		name = flavor_afq.1.b
+		add_country_modifier = {
+			name = "afq_kadyak_acceptance"
+			duration = -1
+		}
+		add_accepted_culture = kadyak
+		add_dip_power = -30
+	}
+}
+
+country_event = { #Our Last Stand
+	id = flavor_afq.2 
+	title = flavor_afq.2.t
+	desc = flavor_afq.2.d
+	picture = northamericagfx_SIEGE_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		war_with = KDY
+		50 = {
+		controlled_by = KDY
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = { #great
+		name = flavor_afq.2.a
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = "alutiiqs_unite"
+			duration = 1095
+		}
+		47 = {
+			add_unit_construction = {
+				type = infantry
+				amount = 8
+				speed = 0.1
+				cost = 0
+			}
+		}
+	}
+	
+	option = { #plead with Nanwalek
+		name = flavor_afq.2.b
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = "alutiiqs_unite"
+			duration = 1095
+		}
+		47 = {
+			add_unit_construction = {
+				type = infantry
+				amount = 6
+				speed = 0.1
+				cost = 0
+			}
+		}
+		add_dip_power = -50
+		NNW = {
+										country_event = {
+											id = flavor_afq.3 #plz help
+											days = 30
+											}
+									}
+	}
+	
+}
+
+country_event = { #Plz Help
+	id = flavor_afq.3
+	title = flavor_afq.3.t
+	desc = flavor_afq.3.d
+	picture = northamericagfx_PRAYING_eventPicture
+	is_triggered_only = yes
+
+	
+	option = {			# Sure!
+		name = flavor_afq.3.a
+		ai_chance = { factor = 80 }
+		add_historical_friend = AFQ
+		create_alliance = AFQ
+		join_all_defensive_wars_of = AFQ
+	}
+	option = {			# No
+		name = flavor_afq.3.b
+		ai_chance = { factor = 20 }
+		
+		add_prestige = -15
+	}
+}

@@ -1,0 +1,23 @@
+owner = KRD
+controller = KRD
+add_core = KRD
+culture = kordovaan
+religion = catholic
+hre = no
+base_tax = 3 
+base_production = 4
+trade_goods = fish
+base_manpower = 3
+capital = "Cordova"
+is_city = yes
+center_of_trade = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = north_american
+
+1444.1.1 = {
+	add_permanent_province_modifier = {
+		name = "prince_william_fisheries"
+		duration = -1
+	}
+}

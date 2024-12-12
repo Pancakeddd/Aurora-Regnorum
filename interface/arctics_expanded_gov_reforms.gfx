@@ -1,0 +1,21 @@
+spriteTypes = {
+    spriteType = {
+        name = "government_reform_ae_arctic_village"
+        texturefile = "gfx//interface//government_reform_icons//ae_arctic_village.dds"
+   }
+
+   spriteType = {
+        name = "government_reform_ae_shamanic_rule"
+        texturefile = "gfx//interface//government_reform_icons//ae_shamanic_rule.dds"
+   }
+
+    spriteType = {
+        name = "government_reform_ae_shaman_theocracy"
+        texturefile = "gfx//interface//government_reform_icons//ae_shaman_theocracy.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_ae_ainu_mosir"
+        texturefile = "gfx//interface//government_reform_icons//ae_ainu_mosir.dds"
+    }
+}

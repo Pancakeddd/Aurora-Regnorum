@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kenai
+government_rank = 1
+primary_culture = denaina
+religion = totemism
+technology_group = north_american
+capital = 174	# Homer
+
+1444.11.11 = {
+	monarch = {
+		name = "Sukut"
+		dynasty = "K'kaq"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

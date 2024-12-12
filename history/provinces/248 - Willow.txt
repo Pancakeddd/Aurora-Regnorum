@@ -1,0 +1,12 @@
+culture = talkeetna
+religion = totemism
+hre = no
+base_tax = 2 
+base_production = 4
+trade_goods = fur
+base_manpower = 3
+capital = "Willow"
+native_size = 22
+native_ferocity = 6
+native_hostileness = 3
+discovered_by = north_american

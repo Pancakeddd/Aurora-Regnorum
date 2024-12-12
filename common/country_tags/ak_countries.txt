@@ -1,0 +1,75 @@
+# Island Countries
+KDY = "countries/Kadyak.txt"
+AFQ = "countries/Afognak.txt"
+AXK = "countries/Akhiok.txt"
+KRQ = "countries/Kalut.txt"
+TSB = "countries/Svatosk.txt"
+SNQ = "countries/Sunaq.txt"
+SPQ = "countries/Sugpiaq.txt"
+SVQ = "countries/Sivuqaq.txt"
+
+# Kenai and Anchorage
+NIN = "countries/Ninilchick.txt"
+KAG = "countries/Kaugelinn.txt"
+NNW = "countries/Nanwalek.txt"
+QTK = "countries/Qutekchek.txt"
+DLV = "countries/Delvashi.txt"
+VLZ = "countries/Velreiz.txt"
+KTZ = "countries/Kenaitze.txt"
+NAR = "countries/Nuranah.txt"
+MTK = "countries/Metsakyla.txt"
+JKY = "countries/Joenkyla.txt"
+RGN = "countries/Regnum.txt"
+RZK = "countries/Rezekne.txt"
+SGL = "countries/Sigulda.txt"
+TGG = "countries/Tuggeght.txt"
+HLM = "countries/Heltermaa.txt"
+NNK = "countries/Nenyatsk.txt"
+KRD = "countries/Kordovaa.txt"
+DUS = "countries/Dusdebena.txt"
+KLG = "countries/Kallaga.txt"
+CNS = "countries/Chanshtnu.txt"
+EKL = "countries/Eklutna.txt"
+
+# Susitna and Glennallen
+CKL = "countries/Chickaloon.txt"
+STN = "countries/Susitna.txt"
+TKT = "countries/Talkeetna.txt"
+SNT = "countries/Skwentna.txt"
+KPR = "countries/Kipriye.txt"
+KRH = "countries/Karhava.txt"
+VST = "countries/Vistarna.txt"
+NLC = "countries/Nelchina.txt"
+TYK = "countries/Tyonek.txt"
+BLU = "countries/Beluga.txt"
+TQK = "countries/Tuqenkaq.txt"
+VIN = "countries/Brimirhavn.txt"
+
+
+# Southeast
+EYK = "countries/Eyak.txt"
+YTT = "countries/Yakutat.txt"
+KTL = "countries/Katalla.txt"
+
+#Baranof Island
+DSH = "countries/Deishuhittaan.txt"
+KGW = "countries/Kagwantan.txt"
+KKH = "countries/Kookhittaan.txt"
+KKS = "countries/Kiksadi.txt"
+WSH = "countries/Wooshketan.txt"
+WTN = "countries/Watineidi.txt"
+
+#Kuiu
+KUI = "countries/Kuiu.txt"
+
+#Gustavus
+CKN = "countries/Chookaneidi.txt"
+GNX = "countries/Ganaxadi.txt"
+
+#Admiral
+DKW = "countries/Daklaweidi.txt"
+
+#Prince of Wales
+SHI = "countries/Shixaan.txt" #from village on north PWI
+LWK = "countries/Lawaak.txt"
+JKU = "countries/Jinkuaan.txt"
